@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "Create_app_logo_for_milk_men_app_name_is_DudhVa.jpg",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

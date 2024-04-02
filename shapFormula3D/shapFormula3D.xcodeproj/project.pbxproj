@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		687548D52BA40B22007F1451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687548D42BA40B22007F1451 /* AppDelegate.swift */; };
+		687548D72BA40B22007F1451 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687548D62BA40B22007F1451 /* SceneDelegate.swift */; };
+		687548DC2BA40B22007F1451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687548DA2BA40B22007F1451 /* Main.storyboard */; };
+		687548DF2BA40B22007F1451 /* shapFormula3D.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 687548DD2BA40B22007F1451 /* shapFormula3D.xcdatamodeld */; };
+		687548E12BA40B24007F1451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687548E02BA40B24007F1451 /* Assets.xcassets */; };
+		687548E42BA40B24007F1451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687548E22BA40B24007F1451 /* LaunchScreen.storyboard */; };
+		687548EF2BA40B24007F1451 /* shapFormula3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687548EE2BA40B24007F1451 /* shapFormula3DTests.swift */; };
+		687548F92BA40B24007F1451 /* shapFormula3DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687548F82BA40B24007F1451 /* shapFormula3DUITests.swift */; };
+		687548FB2BA40B24007F1451 /* shapFormula3DUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687548FA2BA40B24007F1451 /* shapFormula3DUITestsLaunchTests.swift */; };
+		687549082BA40D88007F1451 /* Extionsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687549072BA40D87007F1451 /* Extionsion.swift */; };
+		6875490A2BA40D8F007F1451 /* helperFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687549092BA40D8F007F1451 /* helperFunction.swift */; };
+		6875490C2BA40D97007F1451 /* calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6875490B2BA40D97007F1451 /* calculator.swift */; };
+		687549182BA40DAC007F1451 /* SphereViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6875490D2BA40DAA007F1451 /* SphereViewController.swift */; };
+		687549192BA40DAC007F1451 /* aboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6875490E2BA40DAA007F1451 /* aboutUsViewController.swift */; };
+		6875491A2BA40DAC007F1451 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6875490F2BA40DAA007F1451 /* ViewController.swift */; };
+		6875491B2BA40DAC007F1451 /* cubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687549102BA40DAA007F1451 /* cubeViewController.swift */; };
+		6875491C2BA40DAC007F1451 /* SquarePyramindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687549112BA40DAA007F1451 /* SquarePyramindViewController.swift */; };
+		6875491D2BA40DAC007F1451 /* Pentagonal PrismViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687549122BA40DAB007F1451 /* Pentagonal PrismViewController.swift */; };
+		6875491E2BA40DAC007F1451 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687549132BA40DAB007F1451 /* data.swift */; };
+		6875491F2BA40DAC007F1451 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687549142BA40DAB007F1451 /* homeViewController.swift */; };
+		687549202BA40DAC007F1451 /* HemlsphereViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687549152BA40DAB007F1451 /* HemlsphereViewController.swift */; };
+		687549212BA40DAC007F1451 /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687549162BA40DAB007F1451 /* startViewController.swift */; };
+		687549222BA40DAC007F1451 /* CuboidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687549172BA40DAC007F1451 /* CuboidViewController.swift */; };
+		7065DCD1704C8AF5624D2C49 /* Pods_shapFormula3DTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694A76793FEB6AD30714CBEF /* Pods_shapFormula3DTests.framework */; };
+		EBF289E0E57D1085A362F8FD /* Pods_shapFormula3D_shapFormula3DUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2C77575B1EAAA22A1C24C8 /* Pods_shapFormula3D_shapFormula3DUITests.framework */; };
+		F93481607FC801F2593F6D0C /* Pods_shapFormula3D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF438BA52FCD5B1351F94A5 /* Pods_shapFormula3D.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		687548EB2BA40B24007F1451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687548C92BA40B22007F1451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 687548D02BA40B22007F1451;
+			remoteInfo = shapFormula3D;
+		};
+		687548F52BA40B24007F1451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687548C92BA40B22007F1451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 687548D02BA40B22007F1451;
+			remoteInfo = shapFormula3D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050798155D1D29A559F4E14F /* Pods-shapFormula3D-shapFormula3DUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shapFormula3D-shapFormula3DUITests.release.xcconfig"; path = "Target Support Files/Pods-shapFormula3D-shapFormula3DUITests/Pods-shapFormula3D-shapFormula3DUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0C2C77575B1EAAA22A1C24C8 /* Pods_shapFormula3D_shapFormula3DUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shapFormula3D_shapFormula3DUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2043F7546E7AA08C9C1526DC /* Pods-shapFormula3D-shapFormula3DUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shapFormula3D-shapFormula3DUITests.debug.xcconfig"; path = "Target Support Files/Pods-shapFormula3D-shapFormula3DUITests/Pods-shapFormula3D-shapFormula3DUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		205B99CAD1D4136E08D622A5 /* Pods-shapFormula3DTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shapFormula3DTests.debug.xcconfig"; path = "Target Support Files/Pods-shapFormula3DTests/Pods-shapFormula3DTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5169473826F61634FECB1D1B /* Pods-shapFormula3D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shapFormula3D.release.xcconfig"; path = "Target Support Files/Pods-shapFormula3D/Pods-shapFormula3D.release.xcconfig"; sourceTree = "<group>"; };
+		5FF438BA52FCD5B1351F94A5 /* Pods_shapFormula3D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shapFormula3D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		687548D12BA40B22007F1451 /* shapFormula3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shapFormula3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		687548D42BA40B22007F1451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		687548D62BA40B22007F1451 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		687548DB2BA40B22007F1451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		687548DE2BA40B22007F1451 /* shapFormula3D.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = shapFormula3D.xcdatamodel; sourceTree = "<group>"; };
+		687548E02BA40B24007F1451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		687548E32BA40B24007F1451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		687548E52BA40B24007F1451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687548EA2BA40B24007F1451 /* shapFormula3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shapFormula3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		687548EE2BA40B24007F1451 /* shapFormula3DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapFormula3DTests.swift; sourceTree = "<group>"; };
+		687548F42BA40B24007F1451 /* shapFormula3DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shapFormula3DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		687548F82BA40B24007F1451 /* shapFormula3DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapFormula3DUITests.swift; sourceTree = "<group>"; };
+		687548FA2BA40B24007F1451 /* shapFormula3DUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapFormula3DUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		687549072BA40D87007F1451 /* Extionsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extionsion.swift; sourceTree = "<group>"; };
+		687549092BA40D8F007F1451 /* helperFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helperFunction.swift; sourceTree = "<group>"; };
+		6875490B2BA40D97007F1451 /* calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculator.swift; sourceTree = "<group>"; };
+		6875490D2BA40DAA007F1451 /* SphereViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SphereViewController.swift; sourceTree = "<group>"; };
+		6875490E2BA40DAA007F1451 /* aboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aboutUsViewController.swift; sourceTree = "<group>"; };
+		6875490F2BA40DAA007F1451 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		687549102BA40DAA007F1451 /* cubeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cubeViewController.swift; sourceTree = "<group>"; };
+		687549112BA40DAA007F1451 /* SquarePyramindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquarePyramindViewController.swift; sourceTree = "<group>"; };
+		687549122BA40DAB007F1451 /* Pentagonal PrismViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pentagonal PrismViewController.swift"; sourceTree = "<group>"; };
+		687549132BA40DAB007F1451 /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		687549142BA40DAB007F1451 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		687549152BA40DAB007F1451 /* HemlsphereViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HemlsphereViewController.swift; sourceTree = "<group>"; };
+		687549162BA40DAB007F1451 /* startViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
+		687549172BA40DAC007F1451 /* CuboidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuboidViewController.swift; sourceTree = "<group>"; };
+		694A76793FEB6AD30714CBEF /* Pods_shapFormula3DTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shapFormula3DTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A19123D75629C2879AE0E14 /* Pods-shapFormula3DTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shapFormula3DTests.release.xcconfig"; path = "Target Support Files/Pods-shapFormula3DTests/Pods-shapFormula3DTests.release.xcconfig"; sourceTree = "<group>"; };
+		90C3AB5EF5A6A81909B66FB5 /* Pods-shapFormula3D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shapFormula3D.debug.xcconfig"; path = "Target Support Files/Pods-shapFormula3D/Pods-shapFormula3D.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		687548CE2BA40B22007F1451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93481607FC801F2593F6D0C /* Pods_shapFormula3D.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687548E72BA40B24007F1451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7065DCD1704C8AF5624D2C49 /* Pods_shapFormula3DTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687548F12BA40B24007F1451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF289E0E57D1085A362F8FD /* Pods_shapFormula3D_shapFormula3DUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		687548C82BA40B22007F1451 = {
+			isa = PBXGroup;
+			children = (
+				687548D32BA40B22007F1451 /* shapFormula3D */,
+				687548ED2BA40B24007F1451 /* shapFormula3DTests */,
+				687548F72BA40B24007F1451 /* shapFormula3DUITests */,
+				687548D22BA40B22007F1451 /* Products */,
+				83282ADE6221DB4D9972E5C3 /* Pods */,
+				CC6084044746AF0B1247BE97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		687548D22BA40B22007F1451 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				687548D12BA40B22007F1451 /* shapFormula3D.app */,
+				687548EA2BA40B24007F1451 /* shapFormula3DTests.xctest */,
+				687548F42BA40B24007F1451 /* shapFormula3DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		687548D32BA40B22007F1451 /* shapFormula3D */ = {
+			isa = PBXGroup;
+			children = (
+				687548D42BA40B22007F1451 /* AppDelegate.swift */,
+				687548D62BA40B22007F1451 /* SceneDelegate.swift */,
+				687549072BA40D87007F1451 /* Extionsion.swift */,
+				687549092BA40D8F007F1451 /* helperFunction.swift */,
+				6875490B2BA40D97007F1451 /* calculator.swift */,
+				687548DA2BA40B22007F1451 /* Main.storyboard */,
+				6875490E2BA40DAA007F1451 /* aboutUsViewController.swift */,
+				687549102BA40DAA007F1451 /* cubeViewController.swift */,
+				687549172BA40DAC007F1451 /* CuboidViewController.swift */,
+				687549132BA40DAB007F1451 /* data.swift */,
+				687549152BA40DAB007F1451 /* HemlsphereViewController.swift */,
+				687549142BA40DAB007F1451 /* homeViewController.swift */,
+				687549122BA40DAB007F1451 /* Pentagonal PrismViewController.swift */,
+				6875490D2BA40DAA007F1451 /* SphereViewController.swift */,
+				687549112BA40DAA007F1451 /* SquarePyramindViewController.swift */,
+				687549162BA40DAB007F1451 /* startViewController.swift */,
+				6875490F2BA40DAA007F1451 /* ViewController.swift */,
+				687548E02BA40B24007F1451 /* Assets.xcassets */,
+				687548E22BA40B24007F1451 /* LaunchScreen.storyboard */,
+				687548E52BA40B24007F1451 /* Info.plist */,
+				687548DD2BA40B22007F1451 /* shapFormula3D.xcdatamodeld */,
+			);
+			path = shapFormula3D;
+			sourceTree = "<group>";
+		};
+		687548ED2BA40B24007F1451 /* shapFormula3DTests */ = {
+			isa = PBXGroup;
+			children = (
+				687548EE2BA40B24007F1451 /* shapFormula3DTests.swift */,
+			);
+			path = shapFormula3DTests;
+			sourceTree = "<group>";
+		};
+		687548F72BA40B24007F1451 /* shapFormula3DUITests */ = {
+			isa = PBXGroup;
+			children = (
+				687548F82BA40B24007F1451 /* shapFormula3DUITests.swift */,
+				687548FA2BA40B24007F1451 /* shapFormula3DUITestsLaunchTests.swift */,
+			);
+			path = shapFormula3DUITests;
+			sourceTree = "<group>";
+		};
+		83282ADE6221DB4D9972E5C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90C3AB5EF5A6A81909B66FB5 /* Pods-shapFormula3D.debug.xcconfig */,
+				5169473826F61634FECB1D1B /* Pods-shapFormula3D.release.xcconfig */,
+				2043F7546E7AA08C9C1526DC /* Pods-shapFormula3D-shapFormula3DUITests.debug.xcconfig */,
+				050798155D1D29A559F4E14F /* Pods-shapFormula3D-shapFormula3DUITests.release.xcconfig */,
+				205B99CAD1D4136E08D622A5 /* Pods-shapFormula3DTests.debug.xcconfig */,
+				7A19123D75629C2879AE0E14 /* Pods-shapFormula3DTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC6084044746AF0B1247BE97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FF438BA52FCD5B1351F94A5 /* Pods_shapFormula3D.framework */,
+				0C2C77575B1EAAA22A1C24C8 /* Pods_shapFormula3D_shapFormula3DUITests.framework */,
+				694A76793FEB6AD30714CBEF /* Pods_shapFormula3DTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		687548D02BA40B22007F1451 /* shapFormula3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687548FE2BA40B24007F1451 /* Build configuration list for PBXNativeTarget "shapFormula3D" */;
+			buildPhases = (
+				2B1634205FBF9E99686DD7DE /* [CP] Check Pods Manifest.lock */,
+				687548CD2BA40B22007F1451 /* Sources */,
+				687548CE2BA40B22007F1451 /* Frameworks */,
+				687548CF2BA40B22007F1451 /* Resources */,
+				948DFCB00E5A31F4810518DB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shapFormula3D;
+			productName = shapFormula3D;
+			productReference = 687548D12BA40B22007F1451 /* shapFormula3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		687548E92BA40B24007F1451 /* shapFormula3DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687549012BA40B24007F1451 /* Build configuration list for PBXNativeTarget "shapFormula3DTests" */;
+			buildPhases = (
+				72323BFCEBB0317877CA89E6 /* [CP] Check Pods Manifest.lock */,
+				687548E62BA40B24007F1451 /* Sources */,
+				687548E72BA40B24007F1451 /* Frameworks */,
+				687548E82BA40B24007F1451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687548EC2BA40B24007F1451 /* PBXTargetDependency */,
+			);
+			name = shapFormula3DTests;
+			productName = shapFormula3DTests;
+			productReference = 687548EA2BA40B24007F1451 /* shapFormula3DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		687548F32BA40B24007F1451 /* shapFormula3DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687549042BA40B24007F1451 /* Build configuration list for PBXNativeTarget "shapFormula3DUITests" */;
+			buildPhases = (
+				EA54654AB2D99C4AF05AE349 /* [CP] Check Pods Manifest.lock */,
+				687548F02BA40B24007F1451 /* Sources */,
+				687548F12BA40B24007F1451 /* Frameworks */,
+				687548F22BA40B24007F1451 /* Resources */,
+				D74D61FB74D8DBCD257B7428 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687548F62BA40B24007F1451 /* PBXTargetDependency */,
+			);
+			name = shapFormula3DUITests;
+			productName = shapFormula3DUITests;
+			productReference = 687548F42BA40B24007F1451 /* shapFormula3DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		687548C92BA40B22007F1451 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					687548D02BA40B22007F1451 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					687548E92BA40B24007F1451 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 687548D02BA40B22007F1451;
+					};
+					687548F32BA40B24007F1451 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 687548D02BA40B22007F1451;
+					};
+				};
+			};
+			buildConfigurationList = 687548CC2BA40B22007F1451 /* Build configuration list for PBXProject "shapFormula3D" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 687548C82BA40B22007F1451;
+			productRefGroup = 687548D22BA40B22007F1451 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				687548D02BA40B22007F1451 /* shapFormula3D */,
+				687548E92BA40B24007F1451 /* shapFormula3DTests */,
+				687548F32BA40B24007F1451 /* shapFormula3DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		687548CF2BA40B22007F1451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687548E42BA40B24007F1451 /* LaunchScreen.storyboard in Resources */,
+				687548E12BA40B24007F1451 /* Assets.xcassets in Resources */,
+				687548DC2BA40B22007F1451 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687548E82BA40B24007F1451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687548F22BA40B24007F1451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B1634205FBF9E99686DD7DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shapFormula3D-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72323BFCEBB0317877CA89E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shapFormula3DTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		948DFCB00E5A31F4810518DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shapFormula3D/Pods-shapFormula3D-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shapFormula3D/Pods-shapFormula3D-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shapFormula3D/Pods-shapFormula3D-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D74D61FB74D8DBCD257B7428 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shapFormula3D-shapFormula3DUITests/Pods-shapFormula3D-shapFormula3DUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shapFormula3D-shapFormula3DUITests/Pods-shapFormula3D-shapFormula3DUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shapFormula3D-shapFormula3DUITests/Pods-shapFormula3D-shapFormula3DUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA54654AB2D99C4AF05AE349 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shapFormula3D-shapFormula3DUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		687548CD2BA40B22007F1451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687549192BA40DAC007F1451 /* aboutUsViewController.swift in Sources */,
+				687549212BA40DAC007F1451 /* startViewController.swift in Sources */,
+				6875491B2BA40DAC007F1451 /* cubeViewController.swift in Sources */,
+				6875491D2BA40DAC007F1451 /* Pentagonal PrismViewController.swift in Sources */,
+				687548D52BA40B22007F1451 /* AppDelegate.swift in Sources */,
+				687549202BA40DAC007F1451 /* HemlsphereViewController.swift in Sources */,
+				687549182BA40DAC007F1451 /* SphereViewController.swift in Sources */,
+				6875491A2BA40DAC007F1451 /* ViewController.swift in Sources */,
+				687549222BA40DAC007F1451 /* CuboidViewController.swift in Sources */,
+				6875490A2BA40D8F007F1451 /* helperFunction.swift in Sources */,
+				6875491F2BA40DAC007F1451 /* homeViewController.swift in Sources */,
+				687548D72BA40B22007F1451 /* SceneDelegate.swift in Sources */,
+				6875491E2BA40DAC007F1451 /* data.swift in Sources */,
+				6875490C2BA40D97007F1451 /* calculator.swift in Sources */,
+				687548DF2BA40B22007F1451 /* shapFormula3D.xcdatamodeld in Sources */,
+				6875491C2BA40DAC007F1451 /* SquarePyramindViewController.swift in Sources */,
+				687549082BA40D88007F1451 /* Extionsion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687548E62BA40B24007F1451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687548EF2BA40B24007F1451 /* shapFormula3DTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687548F02BA40B24007F1451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687548FB2BA40B24007F1451 /* shapFormula3DUITestsLaunchTests.swift in Sources */,
+				687548F92BA40B24007F1451 /* shapFormula3DUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		687548EC2BA40B24007F1451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 687548D02BA40B22007F1451 /* shapFormula3D */;
+			targetProxy = 687548EB2BA40B24007F1451 /* PBXContainerItemProxy */;
+		};
+		687548F62BA40B24007F1451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 687548D02BA40B22007F1451 /* shapFormula3D */;
+			targetProxy = 687548F52BA40B24007F1451 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		687548DA2BA40B22007F1451 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687548DB2BA40B22007F1451 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		687548E22BA40B24007F1451 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687548E32BA40B24007F1451 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		687548FC2BA40B24007F1451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		687548FD2BA40B24007F1451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		687548FF2BA40B24007F1451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C3AB5EF5A6A81909B66FB5 /* Pods-shapFormula3D.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = shapFormula3D/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Shap Formula 3D";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.shapFormula3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		687549002BA40B24007F1451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5169473826F61634FECB1D1B /* Pods-shapFormula3D.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = shapFormula3D/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Shap Formula 3D";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.shapFormula3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		687549022BA40B24007F1451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205B99CAD1D4136E08D622A5 /* Pods-shapFormula3DTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.shapFormula3DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shapFormula3D.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/shapFormula3D";
+			};
+			name = Debug;
+		};
+		687549032BA40B24007F1451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A19123D75629C2879AE0E14 /* Pods-shapFormula3DTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.shapFormula3DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shapFormula3D.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/shapFormula3D";
+			};
+			name = Release;
+		};
+		687549052BA40B24007F1451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2043F7546E7AA08C9C1526DC /* Pods-shapFormula3D-shapFormula3DUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.shapFormula3DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = shapFormula3D;
+			};
+			name = Debug;
+		};
+		687549062BA40B24007F1451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 050798155D1D29A559F4E14F /* Pods-shapFormula3D-shapFormula3DUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.shapFormula3DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = shapFormula3D;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		687548CC2BA40B22007F1451 /* Build configuration list for PBXProject "shapFormula3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687548FC2BA40B24007F1451 /* Debug */,
+				687548FD2BA40B24007F1451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687548FE2BA40B24007F1451 /* Build configuration list for PBXNativeTarget "shapFormula3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687548FF2BA40B24007F1451 /* Debug */,
+				687549002BA40B24007F1451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687549012BA40B24007F1451 /* Build configuration list for PBXNativeTarget "shapFormula3DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687549022BA40B24007F1451 /* Debug */,
+				687549032BA40B24007F1451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687549042BA40B24007F1451 /* Build configuration list for PBXNativeTarget "shapFormula3DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687549052BA40B24007F1451 /* Debug */,
+				687549062BA40B24007F1451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		687548DD2BA40B22007F1451 /* shapFormula3D.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				687548DE2BA40B22007F1451 /* shapFormula3D.xcdatamodel */,
+			);
+			currentVersion = 687548DE2BA40B22007F1451 /* shapFormula3D.xcdatamodel */;
+			path = shapFormula3D.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 687548C92BA40B22007F1451 /* Project object */;
+}

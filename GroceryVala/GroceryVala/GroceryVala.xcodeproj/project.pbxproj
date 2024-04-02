@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87440DCD33B41325CD3F9AFE /* Pods_GroceryVala_GroceryValaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B801FB353C885F366EF973 /* Pods_GroceryVala_GroceryValaUITests.framework */; };
+		B7EDF21F2BA1C48A008AC89B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDF21E2BA1C48A008AC89B /* AppDelegate.swift */; };
+		B7EDF2212BA1C48A008AC89B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDF2202BA1C48A008AC89B /* SceneDelegate.swift */; };
+		B7EDF2232BA1C48A008AC89B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDF2222BA1C48A008AC89B /* ViewController.swift */; };
+		B7EDF2262BA1C48A008AC89B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B7EDF2252BA1C48A008AC89B /* Base */; };
+		B7EDF2292BA1C48A008AC89B /* GroceryVala.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7EDF2272BA1C48A008AC89B /* GroceryVala.xcdatamodeld */; };
+		B7EDF22B2BA1C48C008AC89B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7EDF22A2BA1C48C008AC89B /* Assets.xcassets */; };
+		B7EDF22E2BA1C48C008AC89B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B7EDF22D2BA1C48C008AC89B /* Base */; };
+		B7EDF2392BA1C48C008AC89B /* GroceryValaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDF2382BA1C48C008AC89B /* GroceryValaTests.swift */; };
+		B7EDF2432BA1C48C008AC89B /* GroceryValaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDF2422BA1C48C008AC89B /* GroceryValaUITests.swift */; };
+		B7EDF2452BA1C48C008AC89B /* GroceryValaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDF2442BA1C48C008AC89B /* GroceryValaUITestsLaunchTests.swift */; };
+		B7EDF2592BA1C4AC008AC89B /* FirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7EDF2512BA1C4AC008AC89B /* FirstCell.xib */; };
+		B7EDF25A2BA1C4AC008AC89B /* AddCustomerVCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDF2522BA1C4AC008AC89B /* AddCustomerVCC.swift */; };
+		B7EDF25B2BA1C4AC008AC89B /* LiterCounterVCc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDF2532BA1C4AC008AC89B /* LiterCounterVCc.swift */; };
+		B7EDF25C2BA1C4AC008AC89B /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDF2542BA1C4AC008AC89B /* SplashVC.swift */; };
+		B7EDF25D2BA1C4AC008AC89B /* FirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDF2552BA1C4AC008AC89B /* FirstCell.swift */; };
+		B7EDF25E2BA1C4AC008AC89B /* CustomerDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDF2562BA1C4AC008AC89B /* CustomerDetailsVC.swift */; };
+		B7EDF25F2BA1C4AC008AC89B /* HelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDF2572BA1C4AC008AC89B /* HelperClass.swift */; };
+		B7EDF2602BA1C4AC008AC89B /* ViewAllDAtaVCc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDF2582BA1C4AC008AC89B /* ViewAllDAtaVCc.swift */; };
+		BB884262B9F3B8DADB5C2798 /* Pods_GroceryValaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D415E8A236149286F41112 /* Pods_GroceryValaTests.framework */; };
+		C5C2DA7357E87C2AD21C93CB /* Pods_GroceryVala.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5715E5C9CFC175047CC1EC /* Pods_GroceryVala.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7EDF2352BA1C48C008AC89B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7EDF2132BA1C48A008AC89B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7EDF21A2BA1C48A008AC89B;
+			remoteInfo = GroceryVala;
+		};
+		B7EDF23F2BA1C48C008AC89B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7EDF2132BA1C48A008AC89B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7EDF21A2BA1C48A008AC89B;
+			remoteInfo = GroceryVala;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A238486DBC8571D0EECF0BC /* Pods-GroceryVala-GroceryValaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryVala-GroceryValaUITests.release.xcconfig"; path = "Target Support Files/Pods-GroceryVala-GroceryValaUITests/Pods-GroceryVala-GroceryValaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		21DD92549341B8AADD445528 /* Pods-GroceryVala-GroceryValaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryVala-GroceryValaUITests.debug.xcconfig"; path = "Target Support Files/Pods-GroceryVala-GroceryValaUITests/Pods-GroceryVala-GroceryValaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		58D415E8A236149286F41112 /* Pods_GroceryValaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryValaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F95C23D1D65D7C5B06F67DC /* Pods-GroceryValaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryValaTests.debug.xcconfig"; path = "Target Support Files/Pods-GroceryValaTests/Pods-GroceryValaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69367B111B3AA352B6CE8330 /* Pods-GroceryVala.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryVala.debug.xcconfig"; path = "Target Support Files/Pods-GroceryVala/Pods-GroceryVala.debug.xcconfig"; sourceTree = "<group>"; };
+		7B51565DB1CDF5A42101B05D /* Pods-GroceryVala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryVala.release.xcconfig"; path = "Target Support Files/Pods-GroceryVala/Pods-GroceryVala.release.xcconfig"; sourceTree = "<group>"; };
+		9C8ED1A340A33B0910EA8AEA /* Pods-GroceryValaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryValaTests.release.xcconfig"; path = "Target Support Files/Pods-GroceryValaTests/Pods-GroceryValaTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5B801FB353C885F366EF973 /* Pods_GroceryVala_GroceryValaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryVala_GroceryValaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EDF21B2BA1C48A008AC89B /* GroceryVala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryVala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EDF21E2BA1C48A008AC89B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7EDF2202BA1C48A008AC89B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B7EDF2222BA1C48A008AC89B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7EDF2252BA1C48A008AC89B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7EDF2282BA1C48A008AC89B /* GroceryVala.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GroceryVala.xcdatamodel; sourceTree = "<group>"; };
+		B7EDF22A2BA1C48C008AC89B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7EDF22D2BA1C48C008AC89B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7EDF22F2BA1C48C008AC89B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7EDF2342BA1C48C008AC89B /* GroceryValaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryValaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EDF2382BA1C48C008AC89B /* GroceryValaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryValaTests.swift; sourceTree = "<group>"; };
+		B7EDF23E2BA1C48C008AC89B /* GroceryValaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryValaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EDF2422BA1C48C008AC89B /* GroceryValaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryValaUITests.swift; sourceTree = "<group>"; };
+		B7EDF2442BA1C48C008AC89B /* GroceryValaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryValaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7EDF2512BA1C4AC008AC89B /* FirstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstCell.xib; sourceTree = "<group>"; };
+		B7EDF2522BA1C4AC008AC89B /* AddCustomerVCC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCustomerVCC.swift; sourceTree = "<group>"; };
+		B7EDF2532BA1C4AC008AC89B /* LiterCounterVCc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiterCounterVCc.swift; sourceTree = "<group>"; };
+		B7EDF2542BA1C4AC008AC89B /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		B7EDF2552BA1C4AC008AC89B /* FirstCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCell.swift; sourceTree = "<group>"; };
+		B7EDF2562BA1C4AC008AC89B /* CustomerDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerDetailsVC.swift; sourceTree = "<group>"; };
+		B7EDF2572BA1C4AC008AC89B /* HelperClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperClass.swift; sourceTree = "<group>"; };
+		B7EDF2582BA1C4AC008AC89B /* ViewAllDAtaVCc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAllDAtaVCc.swift; sourceTree = "<group>"; };
+		EE5715E5C9CFC175047CC1EC /* Pods_GroceryVala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryVala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7EDF2182BA1C48A008AC89B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C2DA7357E87C2AD21C93CB /* Pods_GroceryVala.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EDF2312BA1C48C008AC89B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB884262B9F3B8DADB5C2798 /* Pods_GroceryValaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EDF23B2BA1C48C008AC89B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87440DCD33B41325CD3F9AFE /* Pods_GroceryVala_GroceryValaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F8742D206323C303A007AE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69367B111B3AA352B6CE8330 /* Pods-GroceryVala.debug.xcconfig */,
+				7B51565DB1CDF5A42101B05D /* Pods-GroceryVala.release.xcconfig */,
+				21DD92549341B8AADD445528 /* Pods-GroceryVala-GroceryValaUITests.debug.xcconfig */,
+				0A238486DBC8571D0EECF0BC /* Pods-GroceryVala-GroceryValaUITests.release.xcconfig */,
+				5F95C23D1D65D7C5B06F67DC /* Pods-GroceryValaTests.debug.xcconfig */,
+				9C8ED1A340A33B0910EA8AEA /* Pods-GroceryValaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E9DD07CB243F9F0DD9B650A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE5715E5C9CFC175047CC1EC /* Pods_GroceryVala.framework */,
+				B5B801FB353C885F366EF973 /* Pods_GroceryVala_GroceryValaUITests.framework */,
+				58D415E8A236149286F41112 /* Pods_GroceryValaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7EDF2122BA1C48A008AC89B = {
+			isa = PBXGroup;
+			children = (
+				B7EDF21D2BA1C48A008AC89B /* GroceryVala */,
+				B7EDF2372BA1C48C008AC89B /* GroceryValaTests */,
+				B7EDF2412BA1C48C008AC89B /* GroceryValaUITests */,
+				B7EDF21C2BA1C48A008AC89B /* Products */,
+				5F8742D206323C303A007AE9 /* Pods */,
+				8E9DD07CB243F9F0DD9B650A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7EDF21C2BA1C48A008AC89B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7EDF21B2BA1C48A008AC89B /* GroceryVala.app */,
+				B7EDF2342BA1C48C008AC89B /* GroceryValaTests.xctest */,
+				B7EDF23E2BA1C48C008AC89B /* GroceryValaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7EDF21D2BA1C48A008AC89B /* GroceryVala */ = {
+			isa = PBXGroup;
+			children = (
+				B7EDF21E2BA1C48A008AC89B /* AppDelegate.swift */,
+				B7EDF2202BA1C48A008AC89B /* SceneDelegate.swift */,
+				B7EDF2222BA1C48A008AC89B /* ViewController.swift */,
+				B7EDF2522BA1C4AC008AC89B /* AddCustomerVCC.swift */,
+				B7EDF2562BA1C4AC008AC89B /* CustomerDetailsVC.swift */,
+				B7EDF2552BA1C4AC008AC89B /* FirstCell.swift */,
+				B7EDF2512BA1C4AC008AC89B /* FirstCell.xib */,
+				B7EDF2572BA1C4AC008AC89B /* HelperClass.swift */,
+				B7EDF2532BA1C4AC008AC89B /* LiterCounterVCc.swift */,
+				B7EDF2542BA1C4AC008AC89B /* SplashVC.swift */,
+				B7EDF2582BA1C4AC008AC89B /* ViewAllDAtaVCc.swift */,
+				B7EDF2242BA1C48A008AC89B /* Main.storyboard */,
+				B7EDF22A2BA1C48C008AC89B /* Assets.xcassets */,
+				B7EDF22C2BA1C48C008AC89B /* LaunchScreen.storyboard */,
+				B7EDF22F2BA1C48C008AC89B /* Info.plist */,
+				B7EDF2272BA1C48A008AC89B /* GroceryVala.xcdatamodeld */,
+			);
+			path = GroceryVala;
+			sourceTree = "<group>";
+		};
+		B7EDF2372BA1C48C008AC89B /* GroceryValaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7EDF2382BA1C48C008AC89B /* GroceryValaTests.swift */,
+			);
+			path = GroceryValaTests;
+			sourceTree = "<group>";
+		};
+		B7EDF2412BA1C48C008AC89B /* GroceryValaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7EDF2422BA1C48C008AC89B /* GroceryValaUITests.swift */,
+				B7EDF2442BA1C48C008AC89B /* GroceryValaUITestsLaunchTests.swift */,
+			);
+			path = GroceryValaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7EDF21A2BA1C48A008AC89B /* GroceryVala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7EDF2482BA1C48C008AC89B /* Build configuration list for PBXNativeTarget "GroceryVala" */;
+			buildPhases = (
+				6C39EC6E178950527F9FD8A8 /* [CP] Check Pods Manifest.lock */,
+				B7EDF2172BA1C48A008AC89B /* Sources */,
+				B7EDF2182BA1C48A008AC89B /* Frameworks */,
+				B7EDF2192BA1C48A008AC89B /* Resources */,
+				A609F5AAFE0B7E5231A8F71C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroceryVala;
+			productName = GroceryVala;
+			productReference = B7EDF21B2BA1C48A008AC89B /* GroceryVala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7EDF2332BA1C48C008AC89B /* GroceryValaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7EDF24B2BA1C48C008AC89B /* Build configuration list for PBXNativeTarget "GroceryValaTests" */;
+			buildPhases = (
+				0BC98F803A805C80A98823C1 /* [CP] Check Pods Manifest.lock */,
+				B7EDF2302BA1C48C008AC89B /* Sources */,
+				B7EDF2312BA1C48C008AC89B /* Frameworks */,
+				B7EDF2322BA1C48C008AC89B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7EDF2362BA1C48C008AC89B /* PBXTargetDependency */,
+			);
+			name = GroceryValaTests;
+			productName = GroceryValaTests;
+			productReference = B7EDF2342BA1C48C008AC89B /* GroceryValaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7EDF23D2BA1C48C008AC89B /* GroceryValaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7EDF24E2BA1C48C008AC89B /* Build configuration list for PBXNativeTarget "GroceryValaUITests" */;
+			buildPhases = (
+				0282ABF636F0B877E5BA9981 /* [CP] Check Pods Manifest.lock */,
+				B7EDF23A2BA1C48C008AC89B /* Sources */,
+				B7EDF23B2BA1C48C008AC89B /* Frameworks */,
+				B7EDF23C2BA1C48C008AC89B /* Resources */,
+				5569052E93077AF220086308 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7EDF2402BA1C48C008AC89B /* PBXTargetDependency */,
+			);
+			name = GroceryValaUITests;
+			productName = GroceryValaUITests;
+			productReference = B7EDF23E2BA1C48C008AC89B /* GroceryValaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7EDF2132BA1C48A008AC89B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B7EDF21A2BA1C48A008AC89B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					B7EDF2332BA1C48C008AC89B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B7EDF21A2BA1C48A008AC89B;
+					};
+					B7EDF23D2BA1C48C008AC89B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B7EDF21A2BA1C48A008AC89B;
+					};
+				};
+			};
+			buildConfigurationList = B7EDF2162BA1C48A008AC89B /* Build configuration list for PBXProject "GroceryVala" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7EDF2122BA1C48A008AC89B;
+			productRefGroup = B7EDF21C2BA1C48A008AC89B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7EDF21A2BA1C48A008AC89B /* GroceryVala */,
+				B7EDF2332BA1C48C008AC89B /* GroceryValaTests */,
+				B7EDF23D2BA1C48C008AC89B /* GroceryValaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7EDF2192BA1C48A008AC89B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EDF22B2BA1C48C008AC89B /* Assets.xcassets in Resources */,
+				B7EDF22E2BA1C48C008AC89B /* Base in Resources */,
+				B7EDF2592BA1C4AC008AC89B /* FirstCell.xib in Resources */,
+				B7EDF2262BA1C48A008AC89B /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EDF2322BA1C48C008AC89B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EDF23C2BA1C48C008AC89B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0282ABF636F0B877E5BA9981 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GroceryVala-GroceryValaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BC98F803A805C80A98823C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GroceryValaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5569052E93077AF220086308 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GroceryVala-GroceryValaUITests/Pods-GroceryVala-GroceryValaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GroceryVala-GroceryValaUITests/Pods-GroceryVala-GroceryValaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GroceryVala-GroceryValaUITests/Pods-GroceryVala-GroceryValaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C39EC6E178950527F9FD8A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GroceryVala-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A609F5AAFE0B7E5231A8F71C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GroceryVala/Pods-GroceryVala-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GroceryVala/Pods-GroceryVala-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GroceryVala/Pods-GroceryVala-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7EDF2172BA1C48A008AC89B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EDF2232BA1C48A008AC89B /* ViewController.swift in Sources */,
+				B7EDF25E2BA1C4AC008AC89B /* CustomerDetailsVC.swift in Sources */,
+				B7EDF21F2BA1C48A008AC89B /* AppDelegate.swift in Sources */,
+				B7EDF2602BA1C4AC008AC89B /* ViewAllDAtaVCc.swift in Sources */,
+				B7EDF25D2BA1C4AC008AC89B /* FirstCell.swift in Sources */,
+				B7EDF25B2BA1C4AC008AC89B /* LiterCounterVCc.swift in Sources */,
+				B7EDF25A2BA1C4AC008AC89B /* AddCustomerVCC.swift in Sources */,
+				B7EDF25F2BA1C4AC008AC89B /* HelperClass.swift in Sources */,
+				B7EDF2212BA1C48A008AC89B /* SceneDelegate.swift in Sources */,
+				B7EDF2292BA1C48A008AC89B /* GroceryVala.xcdatamodeld in Sources */,
+				B7EDF25C2BA1C4AC008AC89B /* SplashVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EDF2302BA1C48C008AC89B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EDF2392BA1C48C008AC89B /* GroceryValaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EDF23A2BA1C48C008AC89B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EDF2452BA1C48C008AC89B /* GroceryValaUITestsLaunchTests.swift in Sources */,
+				B7EDF2432BA1C48C008AC89B /* GroceryValaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7EDF2362BA1C48C008AC89B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7EDF21A2BA1C48A008AC89B /* GroceryVala */;
+			targetProxy = B7EDF2352BA1C48C008AC89B /* PBXContainerItemProxy */;
+		};
+		B7EDF2402BA1C48C008AC89B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7EDF21A2BA1C48A008AC89B /* GroceryVala */;
+			targetProxy = B7EDF23F2BA1C48C008AC89B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7EDF2242BA1C48A008AC89B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7EDF2252BA1C48A008AC89B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7EDF22C2BA1C48C008AC89B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7EDF22D2BA1C48C008AC89B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7EDF2462BA1C48C008AC89B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7EDF2472BA1C48C008AC89B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7EDF2492BA1C48C008AC89B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69367B111B3AA352B6CE8330 /* Pods-GroceryVala.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GroceryVala/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.GroceryVala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7EDF24A2BA1C48C008AC89B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B51565DB1CDF5A42101B05D /* Pods-GroceryVala.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GroceryVala/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.GroceryVala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7EDF24C2BA1C48C008AC89B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F95C23D1D65D7C5B06F67DC /* Pods-GroceryValaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.GroceryValaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroceryVala.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GroceryVala";
+			};
+			name = Debug;
+		};
+		B7EDF24D2BA1C48C008AC89B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C8ED1A340A33B0910EA8AEA /* Pods-GroceryValaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.GroceryValaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroceryVala.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GroceryVala";
+			};
+			name = Release;
+		};
+		B7EDF24F2BA1C48C008AC89B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21DD92549341B8AADD445528 /* Pods-GroceryVala-GroceryValaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.GroceryValaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GroceryVala;
+			};
+			name = Debug;
+		};
+		B7EDF2502BA1C48C008AC89B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A238486DBC8571D0EECF0BC /* Pods-GroceryVala-GroceryValaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.GroceryValaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GroceryVala;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7EDF2162BA1C48A008AC89B /* Build configuration list for PBXProject "GroceryVala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EDF2462BA1C48C008AC89B /* Debug */,
+				B7EDF2472BA1C48C008AC89B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7EDF2482BA1C48C008AC89B /* Build configuration list for PBXNativeTarget "GroceryVala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EDF2492BA1C48C008AC89B /* Debug */,
+				B7EDF24A2BA1C48C008AC89B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7EDF24B2BA1C48C008AC89B /* Build configuration list for PBXNativeTarget "GroceryValaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EDF24C2BA1C48C008AC89B /* Debug */,
+				B7EDF24D2BA1C48C008AC89B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7EDF24E2BA1C48C008AC89B /* Build configuration list for PBXNativeTarget "GroceryValaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EDF24F2BA1C48C008AC89B /* Debug */,
+				B7EDF2502BA1C48C008AC89B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7EDF2272BA1C48A008AC89B /* GroceryVala.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7EDF2282BA1C48A008AC89B /* GroceryVala.xcdatamodel */,
+			);
+			currentVersion = B7EDF2282BA1C48A008AC89B /* GroceryVala.xcdatamodel */;
+			path = GroceryVala.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B7EDF2132BA1C48A008AC89B /* Project object */;
+}

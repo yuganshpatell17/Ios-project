@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "my_app_Is_about_3d_shapes_and_calculate_the_form.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

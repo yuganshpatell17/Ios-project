@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E137C3992B96288B009CCADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E137C3982B96288B009CCADC /* AppDelegate.swift */; };
+		E137C39B2B96288B009CCADC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E137C39A2B96288B009CCADC /* SceneDelegate.swift */; };
+		E137C39D2B96288B009CCADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E137C39C2B96288B009CCADC /* ViewController.swift */; };
+		E137C3A02B96288B009CCADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E137C39E2B96288B009CCADC /* Main.storyboard */; };
+		E137C3A22B96288C009CCADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E137C3A12B96288C009CCADC /* Assets.xcassets */; };
+		E137C3A52B96288C009CCADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E137C3A32B96288C009CCADC /* LaunchScreen.storyboard */; };
+		E137C3B52B962BF8009CCADC /* SCOREVCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E137C3AC2B962BF8009CCADC /* SCOREVCC.swift */; };
+		E137C3B62B962BF8009CCADC /* lAND.json in Resources */ = {isa = PBXBuildFile; fileRef = E137C3AD2B962BF8009CCADC /* lAND.json */; };
+		E137C3B72B962BF8009CCADC /* SETTINGVCVCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = E137C3AE2B962BF8009CCADC /* SETTINGVCVCV.swift */; };
+		E137C3B82B962BF8009CCADC /* QUIZVC_CV.swift in Sources */ = {isa = PBXBuildFile; fileRef = E137C3AF2B962BF8009CCADC /* QUIZVC_CV.swift */; };
+		E137C3B92B962BF8009CCADC /* TRAVEL.json in Resources */ = {isa = PBXBuildFile; fileRef = E137C3B02B962BF8009CCADC /* TRAVEL.json */; };
+		E137C3BA2B962BF8009CCADC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E137C3B22B962BF8009CCADC /* Constant.swift */; };
+		E137C3BB2B962BF8009CCADC /* ArctiveUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E137C3B32B962BF8009CCADC /* ArctiveUtility.swift */; };
+		E137C3BC2B962BF8009CCADC /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E137C3B42B962BF8009CCADC /* Utility.swift */; };
+		E137C3C52B962C01009CCADC /* TraXDvelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E137C3BD2B962C01009CCADC /* TraXDvelCell.swift */; };
+		E137C3C62B962C01009CCADC /* ADDTRAVELNOTE.swift in Sources */ = {isa = PBXBuildFile; fileRef = E137C3BE2B962C01009CCADC /* ADDTRAVELNOTE.swift */; };
+		E137C3C72B962C01009CCADC /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E137C3BF2B962C01009CCADC /* Helper.swift */; };
+		E137C3C82B962C01009CCADC /* ViewTraVelDATA_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E137C3C02B962C01009CCADC /* ViewTraVelDATA_VC.swift */; };
+		E137C3C92B962C01009CCADC /* TourNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E137C3C12B962C01009CCADC /* TourNote.xcdatamodeld */; };
+		E137C3CA2B962C01009CCADC /* TraXDvelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E137C3C32B962C01009CCADC /* TraXDvelCell.xib */; };
+		E137C3CB2B962C01009CCADC /* DETAILSVCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E137C3C42B962C01009CCADC /* DETAILSVCC.swift */; };
+		E137C3CE2B962EC5009CCADC /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E137C3CD2B962EC5009CCADC /* IQKeyboardManagerSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E137C3952B96288B009CCADC /* VortexVeru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VortexVeru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E137C3982B96288B009CCADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E137C39A2B96288B009CCADC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E137C39C2B96288B009CCADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E137C39F2B96288B009CCADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E137C3A12B96288C009CCADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E137C3A42B96288C009CCADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E137C3A62B96288C009CCADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E137C3AC2B962BF8009CCADC /* SCOREVCC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCOREVCC.swift; sourceTree = "<group>"; };
+		E137C3AD2B962BF8009CCADC /* lAND.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lAND.json; sourceTree = "<group>"; };
+		E137C3AE2B962BF8009CCADC /* SETTINGVCVCV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SETTINGVCVCV.swift; sourceTree = "<group>"; };
+		E137C3AF2B962BF8009CCADC /* QUIZVC_CV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUIZVC_CV.swift; sourceTree = "<group>"; };
+		E137C3B02B962BF8009CCADC /* TRAVEL.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TRAVEL.json; sourceTree = "<group>"; };
+		E137C3B22B962BF8009CCADC /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E137C3B32B962BF8009CCADC /* ArctiveUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArctiveUtility.swift; sourceTree = "<group>"; };
+		E137C3B42B962BF8009CCADC /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		E137C3BD2B962C01009CCADC /* TraXDvelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraXDvelCell.swift; sourceTree = "<group>"; };
+		E137C3BE2B962C01009CCADC /* ADDTRAVELNOTE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDTRAVELNOTE.swift; sourceTree = "<group>"; };
+		E137C3BF2B962C01009CCADC /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E137C3C02B962C01009CCADC /* ViewTraVelDATA_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTraVelDATA_VC.swift; sourceTree = "<group>"; };
+		E137C3C22B962C01009CCADC /* Travel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Travel.xcdatamodel; sourceTree = "<group>"; };
+		E137C3C32B962C01009CCADC /* TraXDvelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TraXDvelCell.xib; sourceTree = "<group>"; };
+		E137C3C42B962C01009CCADC /* DETAILSVCC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DETAILSVCC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E137C3922B96288B009CCADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E137C3CE2B962EC5009CCADC /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E137C38C2B96288B009CCADC = {
+			isa = PBXGroup;
+			children = (
+				E137C3972B96288B009CCADC /* VortexVeru */,
+				E137C3962B96288B009CCADC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E137C3962B96288B009CCADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E137C3952B96288B009CCADC /* VortexVeru.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E137C3972B96288B009CCADC /* VortexVeru */ = {
+			isa = PBXGroup;
+			children = (
+				E137C3982B96288B009CCADC /* AppDelegate.swift */,
+				E137C39A2B96288B009CCADC /* SceneDelegate.swift */,
+				E137C39C2B96288B009CCADC /* ViewController.swift */,
+				E137C3AE2B962BF8009CCADC /* SETTINGVCVCV.swift */,
+				E137C3AD2B962BF8009CCADC /* lAND.json */,
+				E137C3AF2B962BF8009CCADC /* QUIZVC_CV.swift */,
+				E137C3AC2B962BF8009CCADC /* SCOREVCC.swift */,
+				E137C3B02B962BF8009CCADC /* TRAVEL.json */,
+				E137C3B12B962BF8009CCADC /* Utility */,
+				E137C39E2B96288B009CCADC /* Main.storyboard */,
+				E137C3A12B96288C009CCADC /* Assets.xcassets */,
+				E137C3A32B96288C009CCADC /* LaunchScreen.storyboard */,
+				E137C3A62B96288C009CCADC /* Info.plist */,
+			);
+			path = VortexVeru;
+			sourceTree = "<group>";
+		};
+		E137C3B12B962BF8009CCADC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E137C3BE2B962C01009CCADC /* ADDTRAVELNOTE.swift */,
+				E137C3C42B962C01009CCADC /* DETAILSVCC.swift */,
+				E137C3BF2B962C01009CCADC /* Helper.swift */,
+				E137C3C12B962C01009CCADC /* TourNote.xcdatamodeld */,
+				E137C3BD2B962C01009CCADC /* TraXDvelCell.swift */,
+				E137C3C32B962C01009CCADC /* TraXDvelCell.xib */,
+				E137C3C02B962C01009CCADC /* ViewTraVelDATA_VC.swift */,
+				E137C3B22B962BF8009CCADC /* Constant.swift */,
+				E137C3B32B962BF8009CCADC /* ArctiveUtility.swift */,
+				E137C3B42B962BF8009CCADC /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E137C3942B96288B009CCADC /* VortexVeru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E137C3A92B96288C009CCADC /* Build configuration list for PBXNativeTarget "VortexVeru" */;
+			buildPhases = (
+				E137C3912B96288B009CCADC /* Sources */,
+				E137C3922B96288B009CCADC /* Frameworks */,
+				E137C3932B96288B009CCADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VortexVeru;
+			packageProductDependencies = (
+				E137C3CD2B962EC5009CCADC /* IQKeyboardManagerSwift */,
+			);
+			productName = VortexVeru;
+			productReference = E137C3952B96288B009CCADC /* VortexVeru.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E137C38D2B96288B009CCADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E137C3942B96288B009CCADC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = E137C3902B96288B009CCADC /* Build configuration list for PBXProject "VortexVeru" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E137C38C2B96288B009CCADC;
+			packageReferences = (
+				E137C3CC2B962EC5009CCADC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = E137C3962B96288B009CCADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E137C3942B96288B009CCADC /* VortexVeru */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E137C3932B96288B009CCADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E137C3A52B96288C009CCADC /* LaunchScreen.storyboard in Resources */,
+				E137C3CA2B962C01009CCADC /* TraXDvelCell.xib in Resources */,
+				E137C3A22B96288C009CCADC /* Assets.xcassets in Resources */,
+				E137C3A02B96288B009CCADC /* Main.storyboard in Resources */,
+				E137C3B62B962BF8009CCADC /* lAND.json in Resources */,
+				E137C3B92B962BF8009CCADC /* TRAVEL.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E137C3912B96288B009CCADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E137C3BA2B962BF8009CCADC /* Constant.swift in Sources */,
+				E137C3BB2B962BF8009CCADC /* ArctiveUtility.swift in Sources */,
+				E137C3BC2B962BF8009CCADC /* Utility.swift in Sources */,
+				E137C39D2B96288B009CCADC /* ViewController.swift in Sources */,
+				E137C3B52B962BF8009CCADC /* SCOREVCC.swift in Sources */,
+				E137C3C92B962C01009CCADC /* TourNote.xcdatamodeld in Sources */,
+				E137C3C82B962C01009CCADC /* ViewTraVelDATA_VC.swift in Sources */,
+				E137C3C52B962C01009CCADC /* TraXDvelCell.swift in Sources */,
+				E137C3992B96288B009CCADC /* AppDelegate.swift in Sources */,
+				E137C3B72B962BF8009CCADC /* SETTINGVCVCV.swift in Sources */,
+				E137C39B2B96288B009CCADC /* SceneDelegate.swift in Sources */,
+				E137C3C62B962C01009CCADC /* ADDTRAVELNOTE.swift in Sources */,
+				E137C3B82B962BF8009CCADC /* QUIZVC_CV.swift in Sources */,
+				E137C3CB2B962C01009CCADC /* DETAILSVCC.swift in Sources */,
+				E137C3C72B962C01009CCADC /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E137C39E2B96288B009CCADC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E137C39F2B96288B009CCADC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E137C3A32B96288C009CCADC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E137C3A42B96288C009CCADC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E137C3A72B96288C009CCADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E137C3A82B96288C009CCADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E137C3AA2B96288C009CCADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VortexVeru/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VortexVeru;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VortexVeru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E137C3AB2B96288C009CCADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VortexVeru/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VortexVeru;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VortexVeru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E137C3902B96288B009CCADC /* Build configuration list for PBXProject "VortexVeru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E137C3A72B96288C009CCADC /* Debug */,
+				E137C3A82B96288C009CCADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E137C3A92B96288C009CCADC /* Build configuration list for PBXNativeTarget "VortexVeru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E137C3AA2B96288C009CCADC /* Debug */,
+				E137C3AB2B96288C009CCADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E137C3CC2B962EC5009CCADC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E137C3CD2B962EC5009CCADC /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E137C3CC2B962EC5009CCADC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E137C3C12B962C01009CCADC /* TourNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E137C3C22B962C01009CCADC /* Travel.xcdatamodel */,
+			);
+			currentVersion = E137C3C22B962C01009CCADC /* Travel.xcdatamodel */;
+			path = TourNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E137C38D2B96288B009CCADC /* Project object */;
+}

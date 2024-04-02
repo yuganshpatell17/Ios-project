@@ -1,0 +1,6 @@
+framework module Pods_MethiPakk {
+  umbrella header "Pods-MethiPakk-umbrella.h"
+
+  export *
+  module * { export * }
+}

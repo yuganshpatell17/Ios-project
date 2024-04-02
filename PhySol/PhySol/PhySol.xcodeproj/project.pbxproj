@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4045EDAB2BA9701600CFF428 /* FormulaSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045EDAA2BA9701600CFF428 /* FormulaSelect.swift */; };
+		4045EDAD2BA9702400CFF428 /* FormulaTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045EDAC2BA9702400CFF428 /* FormulaTable.swift */; };
+		4045EDAF2BA9703100CFF428 /* FormInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045EDAE2BA9703100CFF428 /* FormInfo.swift */; };
+		4045EDB12BA9703A00CFF428 /* FormulaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045EDB02BA9703A00CFF428 /* FormulaInfo.swift */; };
+		4045EDB32BA9704500CFF428 /* FormulaAboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045EDB22BA9704500CFF428 /* FormulaAboutUs.swift */; };
+		4045EDB72BA9709900CFF428 /* TableViewCellForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045EDB62BA9709900CFF428 /* TableViewCellForm.swift */; };
+		4051E0D22BA985A800C10E73 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4051E0D12BA985A800C10E73 /* File.swift */; };
+		4083177A2BA899A400E155FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408317792BA899A400E155FF /* AppDelegate.swift */; };
+		4083177C2BA899A400E155FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083177B2BA899A400E155FF /* SceneDelegate.swift */; };
+		4083177E2BA899A400E155FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083177D2BA899A400E155FF /* ViewController.swift */; };
+		408317812BA899A400E155FF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 408317802BA899A400E155FF /* Base */; };
+		408317832BA899A500E155FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408317822BA899A500E155FF /* Assets.xcassets */; };
+		408317862BA899A500E155FF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 408317852BA899A500E155FF /* Base */; };
+		408317912BA899A500E155FF /* PhySolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408317902BA899A500E155FF /* PhySolTests.swift */; };
+		4083179B2BA899A500E155FF /* PhySolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083179A2BA899A500E155FF /* PhySolUITests.swift */; };
+		4083179D2BA899A500E155FF /* PhySolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083179C2BA899A500E155FF /* PhySolUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4083178D2BA899A500E155FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4083176E2BA899A400E155FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 408317752BA899A400E155FF;
+			remoteInfo = PhySol;
+		};
+		408317972BA899A500E155FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4083176E2BA899A400E155FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 408317752BA899A400E155FF;
+			remoteInfo = PhySol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4045EDAA2BA9701600CFF428 /* FormulaSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaSelect.swift; sourceTree = "<group>"; };
+		4045EDAC2BA9702400CFF428 /* FormulaTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaTable.swift; sourceTree = "<group>"; };
+		4045EDAE2BA9703100CFF428 /* FormInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormInfo.swift; sourceTree = "<group>"; };
+		4045EDB02BA9703A00CFF428 /* FormulaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaInfo.swift; sourceTree = "<group>"; };
+		4045EDB22BA9704500CFF428 /* FormulaAboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaAboutUs.swift; sourceTree = "<group>"; };
+		4045EDB62BA9709900CFF428 /* TableViewCellForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellForm.swift; sourceTree = "<group>"; };
+		4051E0D12BA985A800C10E73 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		408317762BA899A400E155FF /* PhySol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhySol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		408317792BA899A400E155FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4083177B2BA899A400E155FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4083177D2BA899A400E155FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		408317802BA899A400E155FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		408317822BA899A500E155FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		408317852BA899A500E155FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		408317872BA899A500E155FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4083178C2BA899A500E155FF /* PhySolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhySolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		408317902BA899A500E155FF /* PhySolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhySolTests.swift; sourceTree = "<group>"; };
+		408317962BA899A500E155FF /* PhySolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhySolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4083179A2BA899A500E155FF /* PhySolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhySolUITests.swift; sourceTree = "<group>"; };
+		4083179C2BA899A500E155FF /* PhySolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhySolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		408317732BA899A400E155FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408317892BA899A500E155FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408317932BA899A500E155FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4083176D2BA899A400E155FF = {
+			isa = PBXGroup;
+			children = (
+				408317782BA899A400E155FF /* PhySol */,
+				4083178F2BA899A500E155FF /* PhySolTests */,
+				408317992BA899A500E155FF /* PhySolUITests */,
+				408317772BA899A400E155FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		408317772BA899A400E155FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				408317762BA899A400E155FF /* PhySol.app */,
+				4083178C2BA899A500E155FF /* PhySolTests.xctest */,
+				408317962BA899A500E155FF /* PhySolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		408317782BA899A400E155FF /* PhySol */ = {
+			isa = PBXGroup;
+			children = (
+				408317792BA899A400E155FF /* AppDelegate.swift */,
+				4083177B2BA899A400E155FF /* SceneDelegate.swift */,
+				4083177D2BA899A400E155FF /* ViewController.swift */,
+				4083177F2BA899A400E155FF /* Main.storyboard */,
+				4051E0D12BA985A800C10E73 /* File.swift */,
+				4045EDB62BA9709900CFF428 /* TableViewCellForm.swift */,
+				4045EDB22BA9704500CFF428 /* FormulaAboutUs.swift */,
+				4045EDB02BA9703A00CFF428 /* FormulaInfo.swift */,
+				4045EDAE2BA9703100CFF428 /* FormInfo.swift */,
+				4045EDAC2BA9702400CFF428 /* FormulaTable.swift */,
+				4045EDAA2BA9701600CFF428 /* FormulaSelect.swift */,
+				408317822BA899A500E155FF /* Assets.xcassets */,
+				408317842BA899A500E155FF /* LaunchScreen.storyboard */,
+				408317872BA899A500E155FF /* Info.plist */,
+			);
+			path = PhySol;
+			sourceTree = "<group>";
+		};
+		4083178F2BA899A500E155FF /* PhySolTests */ = {
+			isa = PBXGroup;
+			children = (
+				408317902BA899A500E155FF /* PhySolTests.swift */,
+			);
+			path = PhySolTests;
+			sourceTree = "<group>";
+		};
+		408317992BA899A500E155FF /* PhySolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4083179A2BA899A500E155FF /* PhySolUITests.swift */,
+				4083179C2BA899A500E155FF /* PhySolUITestsLaunchTests.swift */,
+			);
+			path = PhySolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		408317752BA899A400E155FF /* PhySol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408317A02BA899A500E155FF /* Build configuration list for PBXNativeTarget "PhySol" */;
+			buildPhases = (
+				408317722BA899A400E155FF /* Sources */,
+				408317732BA899A400E155FF /* Frameworks */,
+				408317742BA899A400E155FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhySol;
+			productName = PhySol;
+			productReference = 408317762BA899A400E155FF /* PhySol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4083178B2BA899A500E155FF /* PhySolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408317A32BA899A500E155FF /* Build configuration list for PBXNativeTarget "PhySolTests" */;
+			buildPhases = (
+				408317882BA899A500E155FF /* Sources */,
+				408317892BA899A500E155FF /* Frameworks */,
+				4083178A2BA899A500E155FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4083178E2BA899A500E155FF /* PBXTargetDependency */,
+			);
+			name = PhySolTests;
+			productName = PhySolTests;
+			productReference = 4083178C2BA899A500E155FF /* PhySolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		408317952BA899A500E155FF /* PhySolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408317A62BA899A500E155FF /* Build configuration list for PBXNativeTarget "PhySolUITests" */;
+			buildPhases = (
+				408317922BA899A500E155FF /* Sources */,
+				408317932BA899A500E155FF /* Frameworks */,
+				408317942BA899A500E155FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				408317982BA899A500E155FF /* PBXTargetDependency */,
+			);
+			name = PhySolUITests;
+			productName = PhySolUITests;
+			productReference = 408317962BA899A500E155FF /* PhySolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4083176E2BA899A400E155FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					408317752BA899A400E155FF = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					4083178B2BA899A500E155FF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 408317752BA899A400E155FF;
+					};
+					408317952BA899A500E155FF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 408317752BA899A400E155FF;
+					};
+				};
+			};
+			buildConfigurationList = 408317712BA899A400E155FF /* Build configuration list for PBXProject "PhySol" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4083176D2BA899A400E155FF;
+			productRefGroup = 408317772BA899A400E155FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				408317752BA899A400E155FF /* PhySol */,
+				4083178B2BA899A500E155FF /* PhySolTests */,
+				408317952BA899A500E155FF /* PhySolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		408317742BA899A400E155FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408317832BA899A500E155FF /* Assets.xcassets in Resources */,
+				408317862BA899A500E155FF /* Base in Resources */,
+				408317812BA899A400E155FF /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4083178A2BA899A500E155FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408317942BA899A500E155FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		408317722BA899A400E155FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4045EDB32BA9704500CFF428 /* FormulaAboutUs.swift in Sources */,
+				4045EDAB2BA9701600CFF428 /* FormulaSelect.swift in Sources */,
+				4045EDAD2BA9702400CFF428 /* FormulaTable.swift in Sources */,
+				4045EDB12BA9703A00CFF428 /* FormulaInfo.swift in Sources */,
+				4083177E2BA899A400E155FF /* ViewController.swift in Sources */,
+				4051E0D22BA985A800C10E73 /* File.swift in Sources */,
+				4045EDAF2BA9703100CFF428 /* FormInfo.swift in Sources */,
+				4083177A2BA899A400E155FF /* AppDelegate.swift in Sources */,
+				4045EDB72BA9709900CFF428 /* TableViewCellForm.swift in Sources */,
+				4083177C2BA899A400E155FF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408317882BA899A500E155FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408317912BA899A500E155FF /* PhySolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408317922BA899A500E155FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4083179B2BA899A500E155FF /* PhySolUITests.swift in Sources */,
+				4083179D2BA899A500E155FF /* PhySolUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4083178E2BA899A500E155FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 408317752BA899A400E155FF /* PhySol */;
+			targetProxy = 4083178D2BA899A500E155FF /* PBXContainerItemProxy */;
+		};
+		408317982BA899A500E155FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 408317752BA899A400E155FF /* PhySol */;
+			targetProxy = 408317972BA899A500E155FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4083177F2BA899A400E155FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				408317802BA899A400E155FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		408317842BA899A500E155FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				408317852BA899A500E155FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4083179E2BA899A500E155FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4083179F2BA899A500E155FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		408317A12BA899A500E155FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhySol/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhySol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		408317A22BA899A500E155FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhySol/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhySol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		408317A42BA899A500E155FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhySolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhySol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhySol";
+			};
+			name = Debug;
+		};
+		408317A52BA899A500E155FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhySolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhySol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhySol";
+			};
+			name = Release;
+		};
+		408317A72BA899A500E155FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhySolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhySol;
+			};
+			name = Debug;
+		};
+		408317A82BA899A500E155FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhySolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhySol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		408317712BA899A400E155FF /* Build configuration list for PBXProject "PhySol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4083179E2BA899A500E155FF /* Debug */,
+				4083179F2BA899A500E155FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408317A02BA899A500E155FF /* Build configuration list for PBXNativeTarget "PhySol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408317A12BA899A500E155FF /* Debug */,
+				408317A22BA899A500E155FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408317A32BA899A500E155FF /* Build configuration list for PBXNativeTarget "PhySolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408317A42BA899A500E155FF /* Debug */,
+				408317A52BA899A500E155FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408317A62BA899A500E155FF /* Build configuration list for PBXNativeTarget "PhySolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408317A72BA899A500E155FF /* Debug */,
+				408317A82BA899A500E155FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4083176E2BA899A400E155FF /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_QandA {
+  umbrella header "Pods-QandA-umbrella.h"
+
+  export *
+  module * { export * }
+}

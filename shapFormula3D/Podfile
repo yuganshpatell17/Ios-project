@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'shapFormula3D' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for shapFormula3D
+pod 'IQKeyboardManagerSwift'
+  target 'shapFormula3DTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'shapFormula3DUITests' do
+    # Pods for testing
+  end
+
+end

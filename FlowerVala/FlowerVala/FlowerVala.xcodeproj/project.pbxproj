@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24E851A67DC769614B147A91 /* Pods_FlowerValaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859F52D45D7DC7F6CC6041F2 /* Pods_FlowerValaTests.framework */; };
+		3907FA943706DA49FDE2978D /* Pods_FlowerVala_FlowerValaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA50C2EC93340817CDF6734 /* Pods_FlowerVala_FlowerValaUITests.framework */; };
+		7FAD20D7D28B0B84EAC64C9E /* Pods_FlowerVala.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B088277EB6E14C5F5A2B642C /* Pods_FlowerVala.framework */; };
+		B78B5E452BABF85A00D1BA30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B5E442BABF85A00D1BA30 /* AppDelegate.swift */; };
+		B78B5E472BABF85A00D1BA30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B5E462BABF85A00D1BA30 /* SceneDelegate.swift */; };
+		B78B5E492BABF85A00D1BA30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B5E482BABF85A00D1BA30 /* ViewController.swift */; };
+		B78B5E4C2BABF85A00D1BA30 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B78B5E4B2BABF85A00D1BA30 /* Base */; };
+		B78B5E4F2BABF85A00D1BA30 /* FlowerVala.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B78B5E4D2BABF85A00D1BA30 /* FlowerVala.xcdatamodeld */; };
+		B78B5E512BABF85B00D1BA30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B78B5E502BABF85B00D1BA30 /* Assets.xcassets */; };
+		B78B5E542BABF85B00D1BA30 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B78B5E532BABF85B00D1BA30 /* Base */; };
+		B78B5E5F2BABF85B00D1BA30 /* FlowerValaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B5E5E2BABF85B00D1BA30 /* FlowerValaTests.swift */; };
+		B78B5E692BABF85B00D1BA30 /* FlowerValaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B5E682BABF85B00D1BA30 /* FlowerValaUITests.swift */; };
+		B78B5E6B2BABF85B00D1BA30 /* FlowerValaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B5E6A2BABF85B00D1BA30 /* FlowerValaUITestsLaunchTests.swift */; };
+		B78B5E792BABF86F00D1BA30 /* MathMEter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B5E772BABF86F00D1BA30 /* MathMEter.swift */; };
+		B78B5E7A2BABF86F00D1BA30 /* BrainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B5E782BABF86F00D1BA30 /* BrainVC.swift */; };
+		B78B5E842BABF91800D1BA30 /* ViewAllDAtaVCc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B5E7C2BABF91800D1BA30 /* ViewAllDAtaVCc.swift */; };
+		B78B5E852BABF91800D1BA30 /* CustomerDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B5E7D2BABF91800D1BA30 /* CustomerDetailsVC.swift */; };
+		B78B5E862BABF91800D1BA30 /* FirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B78B5E7E2BABF91800D1BA30 /* FirstCell.xib */; };
+		B78B5E872BABF91800D1BA30 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B5E7F2BABF91800D1BA30 /* SplashVC.swift */; };
+		B78B5E882BABF91800D1BA30 /* HelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B5E802BABF91800D1BA30 /* HelperClass.swift */; };
+		B78B5E892BABF91800D1BA30 /* FirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B5E812BABF91800D1BA30 /* FirstCell.swift */; };
+		B78B5E8A2BABF91800D1BA30 /* AddCustomerVCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B5E822BABF91800D1BA30 /* AddCustomerVCC.swift */; };
+		B78B5E8C2BABF9C400D1BA30 /* ABOuTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B5E8B2BABF9C400D1BA30 /* ABOuTT.swift */; };
+		B78B5E8E2BAC046900D1BA30 /* LiterCounterVCc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78B5E8D2BAC046900D1BA30 /* LiterCounterVCc.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B78B5E5B2BABF85B00D1BA30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B78B5E392BABF85A00D1BA30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B78B5E402BABF85A00D1BA30;
+			remoteInfo = FlowerVala;
+		};
+		B78B5E652BABF85B00D1BA30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B78B5E392BABF85A00D1BA30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B78B5E402BABF85A00D1BA30;
+			remoteInfo = FlowerVala;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		298EDDC92D91F508B24535CC /* Pods-FlowerVala.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerVala.debug.xcconfig"; path = "Target Support Files/Pods-FlowerVala/Pods-FlowerVala.debug.xcconfig"; sourceTree = "<group>"; };
+		7A2BB60320A169F5488F1916 /* Pods-FlowerValaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerValaTests.release.xcconfig"; path = "Target Support Files/Pods-FlowerValaTests/Pods-FlowerValaTests.release.xcconfig"; sourceTree = "<group>"; };
+		859F52D45D7DC7F6CC6041F2 /* Pods_FlowerValaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowerValaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A3F1B257A7A3AF6EF6CC47 /* Pods-FlowerVala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerVala.release.xcconfig"; path = "Target Support Files/Pods-FlowerVala/Pods-FlowerVala.release.xcconfig"; sourceTree = "<group>"; };
+		B088277EB6E14C5F5A2B642C /* Pods_FlowerVala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowerVala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78B5E412BABF85A00D1BA30 /* FlowerVala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerVala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78B5E442BABF85A00D1BA30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B78B5E462BABF85A00D1BA30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B78B5E482BABF85A00D1BA30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B78B5E4B2BABF85A00D1BA30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B78B5E4E2BABF85A00D1BA30 /* FlowerVala.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlowerVala.xcdatamodel; sourceTree = "<group>"; };
+		B78B5E502BABF85B00D1BA30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B78B5E532BABF85B00D1BA30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B78B5E552BABF85B00D1BA30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78B5E5A2BABF85B00D1BA30 /* FlowerValaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerValaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78B5E5E2BABF85B00D1BA30 /* FlowerValaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerValaTests.swift; sourceTree = "<group>"; };
+		B78B5E642BABF85B00D1BA30 /* FlowerValaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerValaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78B5E682BABF85B00D1BA30 /* FlowerValaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerValaUITests.swift; sourceTree = "<group>"; };
+		B78B5E6A2BABF85B00D1BA30 /* FlowerValaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerValaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B78B5E772BABF86F00D1BA30 /* MathMEter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathMEter.swift; sourceTree = "<group>"; };
+		B78B5E782BABF86F00D1BA30 /* BrainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrainVC.swift; sourceTree = "<group>"; };
+		B78B5E7C2BABF91800D1BA30 /* ViewAllDAtaVCc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAllDAtaVCc.swift; sourceTree = "<group>"; };
+		B78B5E7D2BABF91800D1BA30 /* CustomerDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerDetailsVC.swift; sourceTree = "<group>"; };
+		B78B5E7E2BABF91800D1BA30 /* FirstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstCell.xib; sourceTree = "<group>"; };
+		B78B5E7F2BABF91800D1BA30 /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		B78B5E802BABF91800D1BA30 /* HelperClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperClass.swift; sourceTree = "<group>"; };
+		B78B5E812BABF91800D1BA30 /* FirstCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCell.swift; sourceTree = "<group>"; };
+		B78B5E822BABF91800D1BA30 /* AddCustomerVCC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCustomerVCC.swift; sourceTree = "<group>"; };
+		B78B5E8B2BABF9C400D1BA30 /* ABOuTT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABOuTT.swift; sourceTree = "<group>"; };
+		B78B5E8D2BAC046900D1BA30 /* LiterCounterVCc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiterCounterVCc.swift; sourceTree = "<group>"; };
+		BFB07C3C4EF3CC9A495C8B9B /* Pods-FlowerVala-FlowerValaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerVala-FlowerValaUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlowerVala-FlowerValaUITests/Pods-FlowerVala-FlowerValaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5301F27141A52A8E6B601C2 /* Pods-FlowerVala-FlowerValaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerVala-FlowerValaUITests.release.xcconfig"; path = "Target Support Files/Pods-FlowerVala-FlowerValaUITests/Pods-FlowerVala-FlowerValaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E76F164193A564E34AAE7CD4 /* Pods-FlowerValaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerValaTests.debug.xcconfig"; path = "Target Support Files/Pods-FlowerValaTests/Pods-FlowerValaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEA50C2EC93340817CDF6734 /* Pods_FlowerVala_FlowerValaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowerVala_FlowerValaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B78B5E3E2BABF85A00D1BA30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAD20D7D28B0B84EAC64C9E /* Pods_FlowerVala.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78B5E572BABF85B00D1BA30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E851A67DC769614B147A91 /* Pods_FlowerValaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78B5E612BABF85B00D1BA30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3907FA943706DA49FDE2978D /* Pods_FlowerVala_FlowerValaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B3C9FA5CB0A0D6533B57EAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				298EDDC92D91F508B24535CC /* Pods-FlowerVala.debug.xcconfig */,
+				A2A3F1B257A7A3AF6EF6CC47 /* Pods-FlowerVala.release.xcconfig */,
+				BFB07C3C4EF3CC9A495C8B9B /* Pods-FlowerVala-FlowerValaUITests.debug.xcconfig */,
+				D5301F27141A52A8E6B601C2 /* Pods-FlowerVala-FlowerValaUITests.release.xcconfig */,
+				E76F164193A564E34AAE7CD4 /* Pods-FlowerValaTests.debug.xcconfig */,
+				7A2BB60320A169F5488F1916 /* Pods-FlowerValaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9C2AC5AB0B29F7F41242C254 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B088277EB6E14C5F5A2B642C /* Pods_FlowerVala.framework */,
+				FEA50C2EC93340817CDF6734 /* Pods_FlowerVala_FlowerValaUITests.framework */,
+				859F52D45D7DC7F6CC6041F2 /* Pods_FlowerValaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B78B5E382BABF85A00D1BA30 = {
+			isa = PBXGroup;
+			children = (
+				B78B5E432BABF85A00D1BA30 /* FlowerVala */,
+				B78B5E5D2BABF85B00D1BA30 /* FlowerValaTests */,
+				B78B5E672BABF85B00D1BA30 /* FlowerValaUITests */,
+				B78B5E422BABF85A00D1BA30 /* Products */,
+				2B3C9FA5CB0A0D6533B57EAC /* Pods */,
+				9C2AC5AB0B29F7F41242C254 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B78B5E422BABF85A00D1BA30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B78B5E412BABF85A00D1BA30 /* FlowerVala.app */,
+				B78B5E5A2BABF85B00D1BA30 /* FlowerValaTests.xctest */,
+				B78B5E642BABF85B00D1BA30 /* FlowerValaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B78B5E432BABF85A00D1BA30 /* FlowerVala */ = {
+			isa = PBXGroup;
+			children = (
+				B78B5E442BABF85A00D1BA30 /* AppDelegate.swift */,
+				B78B5E462BABF85A00D1BA30 /* SceneDelegate.swift */,
+				B78B5E482BABF85A00D1BA30 /* ViewController.swift */,
+				B78B5E782BABF86F00D1BA30 /* BrainVC.swift */,
+				B78B5E772BABF86F00D1BA30 /* MathMEter.swift */,
+				B78B5E822BABF91800D1BA30 /* AddCustomerVCC.swift */,
+				B78B5E7D2BABF91800D1BA30 /* CustomerDetailsVC.swift */,
+				B78B5E8D2BAC046900D1BA30 /* LiterCounterVCc.swift */,
+				B78B5E802BABF91800D1BA30 /* HelperClass.swift */,
+				B78B5E7F2BABF91800D1BA30 /* SplashVC.swift */,
+				B78B5E8B2BABF9C400D1BA30 /* ABOuTT.swift */,
+				B78B5E7C2BABF91800D1BA30 /* ViewAllDAtaVCc.swift */,
+				B78B5E812BABF91800D1BA30 /* FirstCell.swift */,
+				B78B5E7E2BABF91800D1BA30 /* FirstCell.xib */,
+				B78B5E4A2BABF85A00D1BA30 /* Main.storyboard */,
+				B78B5E502BABF85B00D1BA30 /* Assets.xcassets */,
+				B78B5E522BABF85B00D1BA30 /* LaunchScreen.storyboard */,
+				B78B5E552BABF85B00D1BA30 /* Info.plist */,
+				B78B5E4D2BABF85A00D1BA30 /* FlowerVala.xcdatamodeld */,
+			);
+			path = FlowerVala;
+			sourceTree = "<group>";
+		};
+		B78B5E5D2BABF85B00D1BA30 /* FlowerValaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B78B5E5E2BABF85B00D1BA30 /* FlowerValaTests.swift */,
+			);
+			path = FlowerValaTests;
+			sourceTree = "<group>";
+		};
+		B78B5E672BABF85B00D1BA30 /* FlowerValaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B78B5E682BABF85B00D1BA30 /* FlowerValaUITests.swift */,
+				B78B5E6A2BABF85B00D1BA30 /* FlowerValaUITestsLaunchTests.swift */,
+			);
+			path = FlowerValaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B78B5E402BABF85A00D1BA30 /* FlowerVala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78B5E6E2BABF85B00D1BA30 /* Build configuration list for PBXNativeTarget "FlowerVala" */;
+			buildPhases = (
+				861944BAF6690F6BBA661688 /* [CP] Check Pods Manifest.lock */,
+				B78B5E3D2BABF85A00D1BA30 /* Sources */,
+				B78B5E3E2BABF85A00D1BA30 /* Frameworks */,
+				B78B5E3F2BABF85A00D1BA30 /* Resources */,
+				E82084499032F59A79B6799F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowerVala;
+			productName = FlowerVala;
+			productReference = B78B5E412BABF85A00D1BA30 /* FlowerVala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B78B5E592BABF85B00D1BA30 /* FlowerValaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78B5E712BABF85B00D1BA30 /* Build configuration list for PBXNativeTarget "FlowerValaTests" */;
+			buildPhases = (
+				BC971CA2C0EA0ADF9ED65A2E /* [CP] Check Pods Manifest.lock */,
+				B78B5E562BABF85B00D1BA30 /* Sources */,
+				B78B5E572BABF85B00D1BA30 /* Frameworks */,
+				B78B5E582BABF85B00D1BA30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B78B5E5C2BABF85B00D1BA30 /* PBXTargetDependency */,
+			);
+			name = FlowerValaTests;
+			productName = FlowerValaTests;
+			productReference = B78B5E5A2BABF85B00D1BA30 /* FlowerValaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B78B5E632BABF85B00D1BA30 /* FlowerValaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78B5E742BABF85B00D1BA30 /* Build configuration list for PBXNativeTarget "FlowerValaUITests" */;
+			buildPhases = (
+				D5EADF321FDC34112F2AA661 /* [CP] Check Pods Manifest.lock */,
+				B78B5E602BABF85B00D1BA30 /* Sources */,
+				B78B5E612BABF85B00D1BA30 /* Frameworks */,
+				B78B5E622BABF85B00D1BA30 /* Resources */,
+				907533585AC56E52F4BAA577 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B78B5E662BABF85B00D1BA30 /* PBXTargetDependency */,
+			);
+			name = FlowerValaUITests;
+			productName = FlowerValaUITests;
+			productReference = B78B5E642BABF85B00D1BA30 /* FlowerValaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B78B5E392BABF85A00D1BA30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B78B5E402BABF85A00D1BA30 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					B78B5E592BABF85B00D1BA30 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B78B5E402BABF85A00D1BA30;
+					};
+					B78B5E632BABF85B00D1BA30 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B78B5E402BABF85A00D1BA30;
+					};
+				};
+			};
+			buildConfigurationList = B78B5E3C2BABF85A00D1BA30 /* Build configuration list for PBXProject "FlowerVala" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B78B5E382BABF85A00D1BA30;
+			productRefGroup = B78B5E422BABF85A00D1BA30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B78B5E402BABF85A00D1BA30 /* FlowerVala */,
+				B78B5E592BABF85B00D1BA30 /* FlowerValaTests */,
+				B78B5E632BABF85B00D1BA30 /* FlowerValaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B78B5E3F2BABF85A00D1BA30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78B5E512BABF85B00D1BA30 /* Assets.xcassets in Resources */,
+				B78B5E542BABF85B00D1BA30 /* Base in Resources */,
+				B78B5E862BABF91800D1BA30 /* FirstCell.xib in Resources */,
+				B78B5E4C2BABF85A00D1BA30 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78B5E582BABF85B00D1BA30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78B5E622BABF85B00D1BA30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		861944BAF6690F6BBA661688 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlowerVala-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		907533585AC56E52F4BAA577 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlowerVala-FlowerValaUITests/Pods-FlowerVala-FlowerValaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlowerVala-FlowerValaUITests/Pods-FlowerVala-FlowerValaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlowerVala-FlowerValaUITests/Pods-FlowerVala-FlowerValaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC971CA2C0EA0ADF9ED65A2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlowerValaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5EADF321FDC34112F2AA661 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlowerVala-FlowerValaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E82084499032F59A79B6799F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlowerVala/Pods-FlowerVala-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlowerVala/Pods-FlowerVala-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlowerVala/Pods-FlowerVala-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B78B5E3D2BABF85A00D1BA30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78B5E8C2BABF9C400D1BA30 /* ABOuTT.swift in Sources */,
+				B78B5E492BABF85A00D1BA30 /* ViewController.swift in Sources */,
+				B78B5E872BABF91800D1BA30 /* SplashVC.swift in Sources */,
+				B78B5E892BABF91800D1BA30 /* FirstCell.swift in Sources */,
+				B78B5E852BABF91800D1BA30 /* CustomerDetailsVC.swift in Sources */,
+				B78B5E842BABF91800D1BA30 /* ViewAllDAtaVCc.swift in Sources */,
+				B78B5E792BABF86F00D1BA30 /* MathMEter.swift in Sources */,
+				B78B5E452BABF85A00D1BA30 /* AppDelegate.swift in Sources */,
+				B78B5E882BABF91800D1BA30 /* HelperClass.swift in Sources */,
+				B78B5E8A2BABF91800D1BA30 /* AddCustomerVCC.swift in Sources */,
+				B78B5E8E2BAC046900D1BA30 /* LiterCounterVCc.swift in Sources */,
+				B78B5E7A2BABF86F00D1BA30 /* BrainVC.swift in Sources */,
+				B78B5E4F2BABF85A00D1BA30 /* FlowerVala.xcdatamodeld in Sources */,
+				B78B5E472BABF85A00D1BA30 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78B5E562BABF85B00D1BA30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78B5E5F2BABF85B00D1BA30 /* FlowerValaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78B5E602BABF85B00D1BA30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78B5E692BABF85B00D1BA30 /* FlowerValaUITests.swift in Sources */,
+				B78B5E6B2BABF85B00D1BA30 /* FlowerValaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B78B5E5C2BABF85B00D1BA30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B78B5E402BABF85A00D1BA30 /* FlowerVala */;
+			targetProxy = B78B5E5B2BABF85B00D1BA30 /* PBXContainerItemProxy */;
+		};
+		B78B5E662BABF85B00D1BA30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B78B5E402BABF85A00D1BA30 /* FlowerVala */;
+			targetProxy = B78B5E652BABF85B00D1BA30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B78B5E4A2BABF85A00D1BA30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B78B5E4B2BABF85A00D1BA30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B78B5E522BABF85B00D1BA30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B78B5E532BABF85B00D1BA30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B78B5E6C2BABF85B00D1BA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B78B5E6D2BABF85B00D1BA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B78B5E6F2BABF85B00D1BA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298EDDC92D91F508B24535CC /* Pods-FlowerVala.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlowerVala/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.FlowerVala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B78B5E702BABF85B00D1BA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2A3F1B257A7A3AF6EF6CC47 /* Pods-FlowerVala.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlowerVala/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.FlowerVala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B78B5E722BABF85B00D1BA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E76F164193A564E34AAE7CD4 /* Pods-FlowerValaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.FlowerValaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowerVala.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlowerVala";
+			};
+			name = Debug;
+		};
+		B78B5E732BABF85B00D1BA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A2BB60320A169F5488F1916 /* Pods-FlowerValaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.FlowerValaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowerVala.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlowerVala";
+			};
+			name = Release;
+		};
+		B78B5E752BABF85B00D1BA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB07C3C4EF3CC9A495C8B9B /* Pods-FlowerVala-FlowerValaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.FlowerValaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlowerVala;
+			};
+			name = Debug;
+		};
+		B78B5E762BABF85B00D1BA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5301F27141A52A8E6B601C2 /* Pods-FlowerVala-FlowerValaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.FlowerValaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlowerVala;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B78B5E3C2BABF85A00D1BA30 /* Build configuration list for PBXProject "FlowerVala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78B5E6C2BABF85B00D1BA30 /* Debug */,
+				B78B5E6D2BABF85B00D1BA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78B5E6E2BABF85B00D1BA30 /* Build configuration list for PBXNativeTarget "FlowerVala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78B5E6F2BABF85B00D1BA30 /* Debug */,
+				B78B5E702BABF85B00D1BA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78B5E712BABF85B00D1BA30 /* Build configuration list for PBXNativeTarget "FlowerValaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78B5E722BABF85B00D1BA30 /* Debug */,
+				B78B5E732BABF85B00D1BA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78B5E742BABF85B00D1BA30 /* Build configuration list for PBXNativeTarget "FlowerValaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78B5E752BABF85B00D1BA30 /* Debug */,
+				B78B5E762BABF85B00D1BA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B78B5E4D2BABF85A00D1BA30 /* FlowerVala.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B78B5E4E2BABF85A00D1BA30 /* FlowerVala.xcdatamodel */,
+			);
+			currentVersion = B78B5E4E2BABF85A00D1BA30 /* FlowerVala.xcdatamodel */;
+			path = FlowerVala.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B78B5E392BABF85A00D1BA30 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_GroceryVala {
+  umbrella header "Pods-GroceryVala-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A0775E2F4D3EFABE8E1BDAD /* Pods_MethiPakk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285F1571DA617B46F290F8E8 /* Pods_MethiPakk.framework */; };
+		E1310CFB2B80D91B004B774B /* DemolationVCCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1310CFA2B80D91B004B774B /* DemolationVCCC.swift */; };
+		E1310CFE2B80DA46004B774B /* BrainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1310CFC2B80DA46004B774B /* BrainVC.swift */; };
+		E1310CFF2B80DA46004B774B /* MathMEter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1310CFD2B80DA46004B774B /* MathMEter.swift */; };
+		E1310D012B80DBCB004B774B /* SIPPPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1310D002B80DBCB004B774B /* SIPPPVC.swift */; };
+		E1310D032B80DD96004B774B /* EMIVCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1310D022B80DD96004B774B /* EMIVCC.swift */; };
+		E1310D052B80DFD7004B774B /* FUNDReport_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1310D042B80DFD7004B774B /* FUNDReport_VC.swift */; };
+		E1310D072B80E06D004B774B /* KnowMoreVCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1310D062B80E06D004B774B /* KnowMoreVCC.swift */; };
+		E1310D092B80E2F7004B774B /* ABOYTTTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1310D082B80E2F7004B774B /* ABOYTTTT.swift */; };
+		E1E120812B78877B00AFE615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E120802B78877B00AFE615 /* AppDelegate.swift */; };
+		E1E120832B78877B00AFE615 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E120822B78877B00AFE615 /* SceneDelegate.swift */; };
+		E1E120852B78877B00AFE615 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E120842B78877B00AFE615 /* ViewController.swift */; };
+		E1E120882B78877B00AFE615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E120862B78877B00AFE615 /* Main.storyboard */; };
+		E1E1208A2B78877C00AFE615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E120892B78877C00AFE615 /* Assets.xcassets */; };
+		E1E1208D2B78877C00AFE615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E1208B2B78877C00AFE615 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		285F1571DA617B46F290F8E8 /* Pods_MethiPakk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MethiPakk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		474394B0C2A7CFD5A8297F66 /* Pods-MethiPakk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MethiPakk.debug.xcconfig"; path = "Target Support Files/Pods-MethiPakk/Pods-MethiPakk.debug.xcconfig"; sourceTree = "<group>"; };
+		5F6B32C2E4A3A78D2E514541 /* Pods-MethiPakk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MethiPakk.release.xcconfig"; path = "Target Support Files/Pods-MethiPakk/Pods-MethiPakk.release.xcconfig"; sourceTree = "<group>"; };
+		E1310CFA2B80D91B004B774B /* DemolationVCCC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemolationVCCC.swift; sourceTree = "<group>"; };
+		E1310CFC2B80DA46004B774B /* BrainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrainVC.swift; sourceTree = "<group>"; };
+		E1310CFD2B80DA46004B774B /* MathMEter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathMEter.swift; sourceTree = "<group>"; };
+		E1310D002B80DBCB004B774B /* SIPPPVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SIPPPVC.swift; sourceTree = "<group>"; };
+		E1310D022B80DD96004B774B /* EMIVCC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMIVCC.swift; sourceTree = "<group>"; };
+		E1310D042B80DFD7004B774B /* FUNDReport_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FUNDReport_VC.swift; sourceTree = "<group>"; };
+		E1310D062B80E06D004B774B /* KnowMoreVCC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnowMoreVCC.swift; sourceTree = "<group>"; };
+		E1310D082B80E2F7004B774B /* ABOYTTTT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABOYTTTT.swift; sourceTree = "<group>"; };
+		E1E1207D2B78877B00AFE615 /* MethiPakk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MethiPakk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E120802B78877B00AFE615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1E120822B78877B00AFE615 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E1E120842B78877B00AFE615 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1E120872B78877B00AFE615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1E120892B78877C00AFE615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1E1208C2B78877C00AFE615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1E1208E2B78877C00AFE615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1E1207A2B78877B00AFE615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0775E2F4D3EFABE8E1BDAD /* Pods_MethiPakk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD88BBEC06447F0A84244A46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				474394B0C2A7CFD5A8297F66 /* Pods-MethiPakk.debug.xcconfig */,
+				5F6B32C2E4A3A78D2E514541 /* Pods-MethiPakk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DCEC005C184569717A0F00DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				285F1571DA617B46F290F8E8 /* Pods_MethiPakk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1E120742B78877B00AFE615 = {
+			isa = PBXGroup;
+			children = (
+				E1E1207F2B78877B00AFE615 /* MethiPakk */,
+				E1E1207E2B78877B00AFE615 /* Products */,
+				BD88BBEC06447F0A84244A46 /* Pods */,
+				DCEC005C184569717A0F00DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1E1207E2B78877B00AFE615 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1E1207D2B78877B00AFE615 /* MethiPakk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1E1207F2B78877B00AFE615 /* MethiPakk */ = {
+			isa = PBXGroup;
+			children = (
+				E1E120802B78877B00AFE615 /* AppDelegate.swift */,
+				E1E120822B78877B00AFE615 /* SceneDelegate.swift */,
+				E1E120842B78877B00AFE615 /* ViewController.swift */,
+				E1E120862B78877B00AFE615 /* Main.storyboard */,
+				E1310CFA2B80D91B004B774B /* DemolationVCCC.swift */,
+				E1310CFC2B80DA46004B774B /* BrainVC.swift */,
+				E1310CFD2B80DA46004B774B /* MathMEter.swift */,
+				E1310D002B80DBCB004B774B /* SIPPPVC.swift */,
+				E1310D022B80DD96004B774B /* EMIVCC.swift */,
+				E1310D042B80DFD7004B774B /* FUNDReport_VC.swift */,
+				E1310D062B80E06D004B774B /* KnowMoreVCC.swift */,
+				E1310D082B80E2F7004B774B /* ABOYTTTT.swift */,
+				E1E120892B78877C00AFE615 /* Assets.xcassets */,
+				E1E1208B2B78877C00AFE615 /* LaunchScreen.storyboard */,
+				E1E1208E2B78877C00AFE615 /* Info.plist */,
+			);
+			path = MethiPakk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1E1207C2B78877B00AFE615 /* MethiPakk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E120912B78877C00AFE615 /* Build configuration list for PBXNativeTarget "MethiPakk" */;
+			buildPhases = (
+				FC9E59B62B6FFCBDA8A1A67B /* [CP] Check Pods Manifest.lock */,
+				E1E120792B78877B00AFE615 /* Sources */,
+				E1E1207A2B78877B00AFE615 /* Frameworks */,
+				E1E1207B2B78877B00AFE615 /* Resources */,
+				B08E6458632336AF08D28240 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MethiPakk;
+			productName = MethiPakk;
+			productReference = E1E1207D2B78877B00AFE615 /* MethiPakk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1E120752B78877B00AFE615 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E1E1207C2B78877B00AFE615 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = E1E120782B78877B00AFE615 /* Build configuration list for PBXProject "MethiPakk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1E120742B78877B00AFE615;
+			productRefGroup = E1E1207E2B78877B00AFE615 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1E1207C2B78877B00AFE615 /* MethiPakk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1E1207B2B78877B00AFE615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E1208D2B78877C00AFE615 /* LaunchScreen.storyboard in Resources */,
+				E1E1208A2B78877C00AFE615 /* Assets.xcassets in Resources */,
+				E1E120882B78877B00AFE615 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B08E6458632336AF08D28240 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MethiPakk/Pods-MethiPakk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MethiPakk/Pods-MethiPakk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MethiPakk/Pods-MethiPakk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC9E59B62B6FFCBDA8A1A67B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MethiPakk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1E120792B78877B00AFE615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1310D072B80E06D004B774B /* KnowMoreVCC.swift in Sources */,
+				E1E120852B78877B00AFE615 /* ViewController.swift in Sources */,
+				E1310D092B80E2F7004B774B /* ABOYTTTT.swift in Sources */,
+				E1E120812B78877B00AFE615 /* AppDelegate.swift in Sources */,
+				E1310D032B80DD96004B774B /* EMIVCC.swift in Sources */,
+				E1310D052B80DFD7004B774B /* FUNDReport_VC.swift in Sources */,
+				E1310D012B80DBCB004B774B /* SIPPPVC.swift in Sources */,
+				E1310CFF2B80DA46004B774B /* MathMEter.swift in Sources */,
+				E1310CFB2B80D91B004B774B /* DemolationVCCC.swift in Sources */,
+				E1310CFE2B80DA46004B774B /* BrainVC.swift in Sources */,
+				E1E120832B78877B00AFE615 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1E120862B78877B00AFE615 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1E120872B78877B00AFE615 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1E1208B2B78877C00AFE615 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1E1208C2B78877C00AFE615 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1E1208F2B78877C00AFE615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1E120902B78877C00AFE615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1E120922B78877C00AFE615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 474394B0C2A7CFD5A8297F66 /* Pods-MethiPakk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MethiPakk/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MethiPakk;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MethiPakk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E1E120932B78877C00AFE615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6B32C2E4A3A78D2E514541 /* Pods-MethiPakk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MethiPakk/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MethiPakk;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MethiPakk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1E120782B78877B00AFE615 /* Build configuration list for PBXProject "MethiPakk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E1208F2B78877C00AFE615 /* Debug */,
+				E1E120902B78877C00AFE615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E120912B78877C00AFE615 /* Build configuration list for PBXNativeTarget "MethiPakk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E120922B78877C00AFE615 /* Debug */,
+				E1E120932B78877C00AFE615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1E120752B78877B00AFE615 /* Project object */;
+}

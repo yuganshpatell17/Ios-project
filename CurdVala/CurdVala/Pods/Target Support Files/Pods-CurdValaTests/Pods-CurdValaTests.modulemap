@@ -1,0 +1,6 @@
+framework module Pods_CurdValaTests {
+  umbrella header "Pods-CurdValaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

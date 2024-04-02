@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84F96CEA7915C23A9007B100 /* Pods_CurdValaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA3CF5628D26A1FC96AD9ED /* Pods_CurdValaTests.framework */; };
+		933653A899D3B96611C48B25 /* Pods_CurdVala_CurdValaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F26B2A604D639980586FA48 /* Pods_CurdVala_CurdValaUITests.framework */; };
+		A7EFF88FA48BB3D27F69E5D2 /* Pods_CurdVala.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6282AD911982EC8D1A217B /* Pods_CurdVala.framework */; };
+		B7E5043E2BABDF7300619D43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E5043D2BABDF7300619D43 /* AppDelegate.swift */; };
+		B7E504402BABDF7300619D43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E5043F2BABDF7300619D43 /* SceneDelegate.swift */; };
+		B7E504422BABDF7300619D43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E504412BABDF7300619D43 /* ViewController.swift */; };
+		B7E504452BABDF7300619D43 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B7E504442BABDF7300619D43 /* Base */; };
+		B7E504482BABDF7300619D43 /* CurdVala.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7E504462BABDF7300619D43 /* CurdVala.xcdatamodeld */; };
+		B7E5044A2BABDF7400619D43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E504492BABDF7400619D43 /* Assets.xcassets */; };
+		B7E5044D2BABDF7400619D43 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B7E5044C2BABDF7400619D43 /* Base */; };
+		B7E504582BABDF7400619D43 /* CurdValaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E504572BABDF7400619D43 /* CurdValaTests.swift */; };
+		B7E504622BABDF7400619D43 /* CurdValaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E504612BABDF7400619D43 /* CurdValaUITests.swift */; };
+		B7E504642BABDF7400619D43 /* CurdValaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E504632BABDF7400619D43 /* CurdValaUITestsLaunchTests.swift */; };
+		B7E504782BABE07F00619D43 /* CustomerDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E504702BABE07F00619D43 /* CustomerDetailsVC.swift */; };
+		B7E504792BABE07F00619D43 /* HelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E504712BABE07F00619D43 /* HelperClass.swift */; };
+		B7E5047A2BABE07F00619D43 /* ViewAllDAtaVCc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E504722BABE07F00619D43 /* ViewAllDAtaVCc.swift */; };
+		B7E5047B2BABE07F00619D43 /* LiterCounterVCc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E504732BABE07F00619D43 /* LiterCounterVCc.swift */; };
+		B7E5047C2BABE07F00619D43 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E504742BABE07F00619D43 /* SplashVC.swift */; };
+		B7E5047D2BABE07F00619D43 /* AddCustomerVCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E504752BABE07F00619D43 /* AddCustomerVCC.swift */; };
+		B7E5047E2BABE07F00619D43 /* FirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7E504762BABE07F00619D43 /* FirstCell.xib */; };
+		B7E5047F2BABE07F00619D43 /* FirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E504772BABE07F00619D43 /* FirstCell.swift */; };
+		B7E504812BABE4D000619D43 /* ABOuTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E504802BABE4D000619D43 /* ABOuTT.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7E504542BABDF7400619D43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7E504322BABDF7300619D43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E504392BABDF7300619D43;
+			remoteInfo = CurdVala;
+		};
+		B7E5045E2BABDF7400619D43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7E504322BABDF7300619D43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E504392BABDF7300619D43;
+			remoteInfo = CurdVala;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057979F5C4AC74C1729835BD /* Pods-CurdVala-CurdValaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurdVala-CurdValaUITests.release.xcconfig"; path = "Target Support Files/Pods-CurdVala-CurdValaUITests/Pods-CurdVala-CurdValaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3A6282AD911982EC8D1A217B /* Pods_CurdVala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CurdVala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA3CF5628D26A1FC96AD9ED /* Pods_CurdValaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CurdValaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69452369562DAF01703C62F3 /* Pods-CurdVala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurdVala.release.xcconfig"; path = "Target Support Files/Pods-CurdVala/Pods-CurdVala.release.xcconfig"; sourceTree = "<group>"; };
+		74E1606BD9BF43D1101EFD51 /* Pods-CurdValaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurdValaTests.release.xcconfig"; path = "Target Support Files/Pods-CurdValaTests/Pods-CurdValaTests.release.xcconfig"; sourceTree = "<group>"; };
+		8434FD7DD724F158738E6262 /* Pods-CurdValaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurdValaTests.debug.xcconfig"; path = "Target Support Files/Pods-CurdValaTests/Pods-CurdValaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F26B2A604D639980586FA48 /* Pods_CurdVala_CurdValaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CurdVala_CurdValaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CF83C1851637F5406D5790 /* Pods-CurdVala-CurdValaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurdVala-CurdValaUITests.debug.xcconfig"; path = "Target Support Files/Pods-CurdVala-CurdValaUITests/Pods-CurdVala-CurdValaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD990EA90D13FB43DF864DC4 /* Pods-CurdVala.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurdVala.debug.xcconfig"; path = "Target Support Files/Pods-CurdVala/Pods-CurdVala.debug.xcconfig"; sourceTree = "<group>"; };
+		B7E5043A2BABDF7300619D43 /* CurdVala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurdVala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E5043D2BABDF7300619D43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7E5043F2BABDF7300619D43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B7E504412BABDF7300619D43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7E504442BABDF7300619D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7E504472BABDF7300619D43 /* CurdVala.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CurdVala.xcdatamodel; sourceTree = "<group>"; };
+		B7E504492BABDF7400619D43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7E5044C2BABDF7400619D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7E5044E2BABDF7400619D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E504532BABDF7400619D43 /* CurdValaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurdValaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E504572BABDF7400619D43 /* CurdValaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurdValaTests.swift; sourceTree = "<group>"; };
+		B7E5045D2BABDF7400619D43 /* CurdValaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurdValaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E504612BABDF7400619D43 /* CurdValaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurdValaUITests.swift; sourceTree = "<group>"; };
+		B7E504632BABDF7400619D43 /* CurdValaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurdValaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7E504702BABE07F00619D43 /* CustomerDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerDetailsVC.swift; sourceTree = "<group>"; };
+		B7E504712BABE07F00619D43 /* HelperClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperClass.swift; sourceTree = "<group>"; };
+		B7E504722BABE07F00619D43 /* ViewAllDAtaVCc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAllDAtaVCc.swift; sourceTree = "<group>"; };
+		B7E504732BABE07F00619D43 /* LiterCounterVCc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiterCounterVCc.swift; sourceTree = "<group>"; };
+		B7E504742BABE07F00619D43 /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		B7E504752BABE07F00619D43 /* AddCustomerVCC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCustomerVCC.swift; sourceTree = "<group>"; };
+		B7E504762BABE07F00619D43 /* FirstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstCell.xib; sourceTree = "<group>"; };
+		B7E504772BABE07F00619D43 /* FirstCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCell.swift; sourceTree = "<group>"; };
+		B7E504802BABE4D000619D43 /* ABOuTT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABOuTT.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7E504372BABDF7300619D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EFF88FA48BB3D27F69E5D2 /* Pods_CurdVala.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E504502BABDF7400619D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F96CEA7915C23A9007B100 /* Pods_CurdValaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E5045A2BABDF7400619D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933653A899D3B96611C48B25 /* Pods_CurdVala_CurdValaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92CA13CA08268C42649526CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A6282AD911982EC8D1A217B /* Pods_CurdVala.framework */,
+				8F26B2A604D639980586FA48 /* Pods_CurdVala_CurdValaUITests.framework */,
+				3EA3CF5628D26A1FC96AD9ED /* Pods_CurdValaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7E504312BABDF7300619D43 = {
+			isa = PBXGroup;
+			children = (
+				B7E5043C2BABDF7300619D43 /* CurdVala */,
+				B7E504562BABDF7400619D43 /* CurdValaTests */,
+				B7E504602BABDF7400619D43 /* CurdValaUITests */,
+				B7E5043B2BABDF7300619D43 /* Products */,
+				C08232DBAEEEE291ABC62ACF /* Pods */,
+				92CA13CA08268C42649526CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7E5043B2BABDF7300619D43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7E5043A2BABDF7300619D43 /* CurdVala.app */,
+				B7E504532BABDF7400619D43 /* CurdValaTests.xctest */,
+				B7E5045D2BABDF7400619D43 /* CurdValaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7E5043C2BABDF7300619D43 /* CurdVala */ = {
+			isa = PBXGroup;
+			children = (
+				B7E5043D2BABDF7300619D43 /* AppDelegate.swift */,
+				B7E5043F2BABDF7300619D43 /* SceneDelegate.swift */,
+				B7E504412BABDF7300619D43 /* ViewController.swift */,
+				B7E504752BABE07F00619D43 /* AddCustomerVCC.swift */,
+				B7E504702BABE07F00619D43 /* CustomerDetailsVC.swift */,
+				B7E504712BABE07F00619D43 /* HelperClass.swift */,
+				B7E504732BABE07F00619D43 /* LiterCounterVCc.swift */,
+				B7E504742BABE07F00619D43 /* SplashVC.swift */,
+				B7E504722BABE07F00619D43 /* ViewAllDAtaVCc.swift */,
+				B7E504802BABE4D000619D43 /* ABOuTT.swift */,
+				B7E504772BABE07F00619D43 /* FirstCell.swift */,
+				B7E504762BABE07F00619D43 /* FirstCell.xib */,
+				B7E504432BABDF7300619D43 /* Main.storyboard */,
+				B7E504492BABDF7400619D43 /* Assets.xcassets */,
+				B7E5044B2BABDF7400619D43 /* LaunchScreen.storyboard */,
+				B7E5044E2BABDF7400619D43 /* Info.plist */,
+				B7E504462BABDF7300619D43 /* CurdVala.xcdatamodeld */,
+			);
+			path = CurdVala;
+			sourceTree = "<group>";
+		};
+		B7E504562BABDF7400619D43 /* CurdValaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E504572BABDF7400619D43 /* CurdValaTests.swift */,
+			);
+			path = CurdValaTests;
+			sourceTree = "<group>";
+		};
+		B7E504602BABDF7400619D43 /* CurdValaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E504612BABDF7400619D43 /* CurdValaUITests.swift */,
+				B7E504632BABDF7400619D43 /* CurdValaUITestsLaunchTests.swift */,
+			);
+			path = CurdValaUITests;
+			sourceTree = "<group>";
+		};
+		C08232DBAEEEE291ABC62ACF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD990EA90D13FB43DF864DC4 /* Pods-CurdVala.debug.xcconfig */,
+				69452369562DAF01703C62F3 /* Pods-CurdVala.release.xcconfig */,
+				A4CF83C1851637F5406D5790 /* Pods-CurdVala-CurdValaUITests.debug.xcconfig */,
+				057979F5C4AC74C1729835BD /* Pods-CurdVala-CurdValaUITests.release.xcconfig */,
+				8434FD7DD724F158738E6262 /* Pods-CurdValaTests.debug.xcconfig */,
+				74E1606BD9BF43D1101EFD51 /* Pods-CurdValaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7E504392BABDF7300619D43 /* CurdVala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E504672BABDF7400619D43 /* Build configuration list for PBXNativeTarget "CurdVala" */;
+			buildPhases = (
+				025B2E761611C4A1D45F0449 /* [CP] Check Pods Manifest.lock */,
+				B7E504362BABDF7300619D43 /* Sources */,
+				B7E504372BABDF7300619D43 /* Frameworks */,
+				B7E504382BABDF7300619D43 /* Resources */,
+				320D4E83F269B7169D404606 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CurdVala;
+			productName = CurdVala;
+			productReference = B7E5043A2BABDF7300619D43 /* CurdVala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7E504522BABDF7400619D43 /* CurdValaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E5046A2BABDF7400619D43 /* Build configuration list for PBXNativeTarget "CurdValaTests" */;
+			buildPhases = (
+				DAC7D4BFA78E71FEC85BC501 /* [CP] Check Pods Manifest.lock */,
+				B7E5044F2BABDF7400619D43 /* Sources */,
+				B7E504502BABDF7400619D43 /* Frameworks */,
+				B7E504512BABDF7400619D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E504552BABDF7400619D43 /* PBXTargetDependency */,
+			);
+			name = CurdValaTests;
+			productName = CurdValaTests;
+			productReference = B7E504532BABDF7400619D43 /* CurdValaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7E5045C2BABDF7400619D43 /* CurdValaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E5046D2BABDF7400619D43 /* Build configuration list for PBXNativeTarget "CurdValaUITests" */;
+			buildPhases = (
+				D5885FB0364365EECED5D39A /* [CP] Check Pods Manifest.lock */,
+				B7E504592BABDF7400619D43 /* Sources */,
+				B7E5045A2BABDF7400619D43 /* Frameworks */,
+				B7E5045B2BABDF7400619D43 /* Resources */,
+				D0E063269EC8A9BDDBDFEA08 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E5045F2BABDF7400619D43 /* PBXTargetDependency */,
+			);
+			name = CurdValaUITests;
+			productName = CurdValaUITests;
+			productReference = B7E5045D2BABDF7400619D43 /* CurdValaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7E504322BABDF7300619D43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B7E504392BABDF7300619D43 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					B7E504522BABDF7400619D43 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B7E504392BABDF7300619D43;
+					};
+					B7E5045C2BABDF7400619D43 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B7E504392BABDF7300619D43;
+					};
+				};
+			};
+			buildConfigurationList = B7E504352BABDF7300619D43 /* Build configuration list for PBXProject "CurdVala" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7E504312BABDF7300619D43;
+			productRefGroup = B7E5043B2BABDF7300619D43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7E504392BABDF7300619D43 /* CurdVala */,
+				B7E504522BABDF7400619D43 /* CurdValaTests */,
+				B7E5045C2BABDF7400619D43 /* CurdValaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7E504382BABDF7300619D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E5044A2BABDF7400619D43 /* Assets.xcassets in Resources */,
+				B7E5044D2BABDF7400619D43 /* Base in Resources */,
+				B7E5047E2BABE07F00619D43 /* FirstCell.xib in Resources */,
+				B7E504452BABDF7300619D43 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E504512BABDF7400619D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E5045B2BABDF7400619D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		025B2E761611C4A1D45F0449 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CurdVala-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		320D4E83F269B7169D404606 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CurdVala/Pods-CurdVala-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CurdVala/Pods-CurdVala-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CurdVala/Pods-CurdVala-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0E063269EC8A9BDDBDFEA08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CurdVala-CurdValaUITests/Pods-CurdVala-CurdValaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CurdVala-CurdValaUITests/Pods-CurdVala-CurdValaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CurdVala-CurdValaUITests/Pods-CurdVala-CurdValaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5885FB0364365EECED5D39A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CurdVala-CurdValaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC7D4BFA78E71FEC85BC501 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CurdValaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7E504362BABDF7300619D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E5047A2BABE07F00619D43 /* ViewAllDAtaVCc.swift in Sources */,
+				B7E504792BABE07F00619D43 /* HelperClass.swift in Sources */,
+				B7E5047F2BABE07F00619D43 /* FirstCell.swift in Sources */,
+				B7E5047D2BABE07F00619D43 /* AddCustomerVCC.swift in Sources */,
+				B7E504422BABDF7300619D43 /* ViewController.swift in Sources */,
+				B7E5043E2BABDF7300619D43 /* AppDelegate.swift in Sources */,
+				B7E5047B2BABE07F00619D43 /* LiterCounterVCc.swift in Sources */,
+				B7E504402BABDF7300619D43 /* SceneDelegate.swift in Sources */,
+				B7E504482BABDF7300619D43 /* CurdVala.xcdatamodeld in Sources */,
+				B7E504782BABE07F00619D43 /* CustomerDetailsVC.swift in Sources */,
+				B7E504812BABE4D000619D43 /* ABOuTT.swift in Sources */,
+				B7E5047C2BABE07F00619D43 /* SplashVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E5044F2BABDF7400619D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E504582BABDF7400619D43 /* CurdValaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E504592BABDF7400619D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E504642BABDF7400619D43 /* CurdValaUITestsLaunchTests.swift in Sources */,
+				B7E504622BABDF7400619D43 /* CurdValaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7E504552BABDF7400619D43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7E504392BABDF7300619D43 /* CurdVala */;
+			targetProxy = B7E504542BABDF7400619D43 /* PBXContainerItemProxy */;
+		};
+		B7E5045F2BABDF7400619D43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7E504392BABDF7300619D43 /* CurdVala */;
+			targetProxy = B7E5045E2BABDF7400619D43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7E504432BABDF7300619D43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E504442BABDF7300619D43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7E5044B2BABDF7400619D43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E5044C2BABDF7400619D43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7E504652BABDF7400619D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7E504662BABDF7400619D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7E504682BABDF7400619D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD990EA90D13FB43DF864DC4 /* Pods-CurdVala.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CurdVala/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.CurdVala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7E504692BABDF7400619D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69452369562DAF01703C62F3 /* Pods-CurdVala.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CurdVala/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.CurdVala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7E5046B2BABDF7400619D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8434FD7DD724F158738E6262 /* Pods-CurdValaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.CurdValaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurdVala.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CurdVala";
+			};
+			name = Debug;
+		};
+		B7E5046C2BABDF7400619D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74E1606BD9BF43D1101EFD51 /* Pods-CurdValaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.CurdValaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurdVala.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CurdVala";
+			};
+			name = Release;
+		};
+		B7E5046E2BABDF7400619D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4CF83C1851637F5406D5790 /* Pods-CurdVala-CurdValaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.CurdValaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CurdVala;
+			};
+			name = Debug;
+		};
+		B7E5046F2BABDF7400619D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 057979F5C4AC74C1729835BD /* Pods-CurdVala-CurdValaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.CurdValaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CurdVala;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7E504352BABDF7300619D43 /* Build configuration list for PBXProject "CurdVala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E504652BABDF7400619D43 /* Debug */,
+				B7E504662BABDF7400619D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E504672BABDF7400619D43 /* Build configuration list for PBXNativeTarget "CurdVala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E504682BABDF7400619D43 /* Debug */,
+				B7E504692BABDF7400619D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E5046A2BABDF7400619D43 /* Build configuration list for PBXNativeTarget "CurdValaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E5046B2BABDF7400619D43 /* Debug */,
+				B7E5046C2BABDF7400619D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E5046D2BABDF7400619D43 /* Build configuration list for PBXNativeTarget "CurdValaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E5046E2BABDF7400619D43 /* Debug */,
+				B7E5046F2BABDF7400619D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7E504462BABDF7300619D43 /* CurdVala.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7E504472BABDF7300619D43 /* CurdVala.xcdatamodel */,
+			);
+			currentVersion = B7E504472BABDF7300619D43 /* CurdVala.xcdatamodel */;
+			path = CurdVala.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B7E504322BABDF7300619D43 /* Project object */;
+}

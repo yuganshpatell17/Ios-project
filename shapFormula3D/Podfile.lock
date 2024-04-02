@@ -1,0 +1,16 @@
+PODS:
+  - IQKeyboardManagerSwift (7.0.1)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 7f6b1b1d1497855d2beea7f2f10ffcc6978525b1
+
+PODFILE CHECKSUM: 04a8f3c482836d6f50c372b8fdc3f9ab29cb4eba
+
+COCOAPODS: 1.15.2

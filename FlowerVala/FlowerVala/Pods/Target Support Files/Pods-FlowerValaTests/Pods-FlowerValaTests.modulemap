@@ -1,0 +1,6 @@
+framework module Pods_FlowerValaTests {
+  umbrella header "Pods-FlowerValaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

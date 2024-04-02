@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "Create_app_logo_using_this_name_VortexVeru_se.jpg",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
