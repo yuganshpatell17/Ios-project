@@ -100,6 +100,3 @@ class RegisterVC: UIViewController
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
-
-
-// yugansh patel
